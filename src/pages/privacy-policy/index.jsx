@@ -1,0 +1,34 @@
+import { useMemo } from "react";
+import usePageAssets from "../../hooks/usePageAssets.js";
+import Section02 from "./sections/Section02";
+import Section03 from "./sections/Section03";
+import Section04 from "./sections/Section04";
+import Section05 from "./sections/Section05";
+import Section06 from "./sections/Section06";
+import Section07 from "./sections/Section07";
+
+function PrivacyPolicyPage() {
+  const links = useMemo(() => ["/mirror/assets/www.redtaxi.co.in/style.css","/mirror/assets/fonts.googleapis.com/css2.bb3c7be946"], []);
+  const styles = useMemo(() => [], []);
+  const scripts = useMemo(() => [{"src":"/mirror/assets/cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"},{"src":"/mirror/assets/cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/js/bootstrap.min.js"},{"src":"/mirror/assets/www.redtaxi.co.in/js/mscript.js"},{"src":"/mirror/assets/www.redtaxi.co.in/js/script.js"},{"inline":"\n $(document).ready(function(){\n   $(window).scroll(function() {\n    if ($(this).scrollTop() > 100 ) {\n        $('.menqq:hidden').stop(true, true).fadeIn();\n        $(menqq).show();\n    } else {\n        $('.menqq').stop(true, true).fadeOut();\n        $('.menqq').hide();\n    }\n});\n});\n"},{"inline":"\n    $(\".bklink\").click(function(){\n\t  $(this).toggleClass('iclose');\n      $(\".bklink2\").toggleClass(\"open\");\n  });\n\n  $(\".trlink\").click(function(){\n\t  $(this).toggleClass('iclose');\n      $(\".trlink2\").toggleClass(\"open\");\n  });\n\n  $(\".melink\").click(function(){\n\t  $(this).toggleClass('iclose');\n      $(\".melink2\").toggleClass(\"open\");\n  });\n\n  $(\".ctlink\").click(function(){\n\t  $(this).toggleClass('iclose');\n      $(\".ctlink2\").toggleClass(\"open\");\n  });\n\n  $(\".cablink\").click(function(){\n\t  $(this).toggleClass('iclose');\n      $(\".cablink2\").toggleClass(\"open\");\n  });\n\n  $(\".crplink\").click(function(){\n\t  $(this).toggleClass('iclose');\n      $(\".crplink2\").toggleClass(\"open\");\n  });\n\n  $(\".abtlink\").click(function(){\n\t  $(this).toggleClass('iclose');\n      $(\".abtlink2\").toggleClass(\"open\");\n  });\n\n\n"},{"inline":"\n         jQuery(document).ready(function($) {\n\t$('header').spSticyheader({\n    \thideHeaderTarget: '.preheader',\n    \tscrollHeader: 200,\n    \tcustomClass: 'make-small',\n    \tmobileHeader: true\n  \t})\n\n});\n// $(\".qlh\").click(function(){\n// \t  $(this).toggleClass('iclose');\n//       $(\".qlinks\").toggleClass(\"open\");\n//   });\n\n$(document).ready(function(){\n   $(window).scroll(function() {\n    if ($(this).scrollTop() > 200 ) {\n        $('#scroll:hidden').stop(true, true).fadeIn();\n        $('#scroll').show();\n    } else {\n        $('#scroll').stop(true, true).fadeOut();\n        $('#scroll').hide();\n    }\n});\n});\n  $('.side-menu-close').on('click',function(){\n        $('html').toggleClass('oflow');\n    });\nwindow.onload = function(){\n\n setTimeout(function(){\n  $(\".sse\").css(\"opacity\",\"1\");\n }, 3000);\n\n};\n $('#mmenu1 .tab-menu a').hover(function (e) {\n\t  e.preventDefault()\n\t  $('#mmenu1 .tab-pane').removeClass('active');\n    tabContentSelector = jQuery(this).attr('href');\n    $(this).tab('show');\n    $(tabContentSelector).addClass('active');\n\t});\n        $('#mmenu2 .tab-menu a').hover(function (e) {\n\t  e.preventDefault()\n\t  $('#mmenu2 .tab-pane').removeClass('active');\n    tabContentSelector = jQuery(this).attr('href');\n    $(this).tab('show');\n    $(tabContentSelector).addClass('active');\n\t});\n          $('#mmenu3 .tab-menu a').hover(function (e) {\n\t  e.preventDefault()\n\t  $('#mmenu3 .tab-pane').removeClass('active');\n    tabContentSelector = jQuery(this).attr('href');\n    $(this).tab('show');\n    $(tabContentSelector).addClass('active');\n\t});\n             $('#mmenu4 .tab-menu a').hover(function (e) {\n\t  e.preventDefault()\n\t  $('#mmenu4 .tab-pane').removeClass('active');\n    tabContentSelector = jQuery(this).attr('href');\n    $(this).tab('show');\n    $(tabContentSelector).addClass('active');\n\t});\n\n   $('.mlink6').on('click',function(){\n      window.location.href='coimbatore-cab-booking';\n   });\n   $('.mlink7').on('click',function(){\n      window.location.href='erode-cab-booking';\n   });\n   $('.mlink8').on('click',function(){\n      window.location.href='salem-cab-booking';\n   });\n   $('.mlink9').on('click',function(){\n      window.location.href='tirupur-cab-booking';\n   });\n   $('.mlink10').on('click',function(){\n      window.location.href='trichy-cab-booking';\n   });\n   $('.mlink11').on('click',function(){\n      window.location.href='madurai-taxi';\n   });\n   $('.mlink12').on('click',function(){\n      window.location.href='oneway-trip';\n   });\n   $('.mlink13').on('click',function(){\n      window.location.href='round-trip';\n   });\n   $('.mlink14').on('click',function(){\n      window.location.href='hourly-rental';\n   });\n   $('.mlink15').on('click',function(){\n      window.location.href='chennai-cab-booking';\n   });\n$(function($) {\n let url = window.location.href;\n  $('nav ul li a').each(function() {\n   if (this.href === url) {\n   $(this).addClass('active');\n  }\n });\n});\n\n$(function($) {\n let url = window.location.href;\n  $(\"nav ul li a\").each(function(){\n        if(url==\"\"){\n\t\t$('.home a').addClass(\"active\");}\n    })\n});\n\n\n"},{"inline":"\nvar sections = $('.hbor'),\n    nav = $('.sticklist'),\n    nav_height = nav.outerHeight();\n\n$(window).on('scroll', function () {\n    var cur_pos = $(this).scrollTop();\n\n    sections.each(function () {\n        var top = $(this).offset().top - nav_height,\n            bottom = top + $(this).outerHeight();\n\n        if (cur_pos >= top && cur_pos <= bottom) {\n            nav.find('a').removeClass('active');\n            sections.removeClass('active');\n\n            $(this).addClass('active');\n            nav.find('a[href=\"#' + $(this).attr('id') + '\"]').addClass('active');\n\n            console.log('Active section:', $(this).attr('id')); // Debugging\n        }\n    });\n});\n\nnav.find('a').on('click', function () {\n    var $el = $(this),\n        id = $el.attr('href');\n\n    $('html, body').animate({\n        scrollTop: $(id).offset().top - nav_height - 100,\n    }, 500);\n\n    return false;\n});\n"}], []);
+
+  usePageAssets({
+    title: `Our Privacy Policy - Red Taxi`,
+    links,
+    styles,
+    scripts,
+  });
+
+  return (
+    <>
+      <Section02 />
+      <Section03 />
+      <Section04 />
+      <Section05 />
+      <Section06 />
+      <Section07 />
+    </>
+  );
+}
+
+export default PrivacyPolicyPage;

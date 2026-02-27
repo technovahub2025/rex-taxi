@@ -1,0 +1,530 @@
+            <h2 class="ch2 mb25"><span>Fares &amp; </span> Tourist Spots</h2>
+        </div>
+        <div class="mem-container">
+            <div class="mem-div">
+
+                <div class="mem-name mem-bo pt0">
+                    <div>
+                    </div>
+                    <div class="txamt-fl">
+                        <div>
+                            <p class="">Sedan</p>
+                        </div>
+                        <div>
+                            <p class="">Mini</p>
+                        </div>
+                    </div>
+                </div>
+<!-- coimbatore to ooty starts -->
+                <div class="mem-name faq-question mem-ooty">
+                    <div>
+                        <h3 class="ch3">Coimbatore to Ooty-Coonoor-Kotagiri</h3>
+                        <div class="data-fl">
+                            <div class="svg-fl"><img src="/mirror/assets/www.redtaxi.co.in/images/location.svg" alt="Location" width="37" height="37" class="hauto">
+                                <p>250 Kms</p>
+                            </div>
+                            <div class="svg-fl"><img src="/mirror/assets/www.redtaxi.co.in/images/clock.svg" alt="Clock" width="27" height="26" class="hauto">
+                                <p>18 Hrs</p>
+                            </div>
+                        </div>
+                        <div class="txamt-flmob">
+                        <div>
+                            <p class="go-taxi">Sedan</p>
+                            <p class="red-para">4525 /-*</p>
+                        </div>
+                        <div>
+                            <p class="go-taxi">Mini</p>
+                            <p class="red-para">4275 /-*</p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="txamt-fl">
+                        <div>
+                            <p class="red-para">4525 /-*</p>
+                        </div>
+                        <div>
+                            <p class="red-para">4275 /-*</p>
+                        </div>
+                    </div>
+                </div>
+
+<!-- coimbatore to Munnar starts -->
+               <div class="mem-name mem-munnar">
+                    <div>
+                        <h3 class="ch3">Coimbatore to Munnar</h3>
+                        <div class="data-fl">
+                            <div class="svg-fl"><img src="/mirror/assets/www.redtaxi.co.in/images/location.svg" alt="Location" width="37" height="37" class="hauto">
+                                <p>450 Kms</p>
+                            </div>
+                            <div class="svg-fl"><img src="/mirror/assets/www.redtaxi.co.in/images/clock.svg" alt="Clock" width="27" height="26" class="hauto">
+                                <p>18 Hrs</p>
+                            </div>
+                        </div>
+                        <div class="txamt-flmob">
+                        <div>
+                            <p class="go-taxi">Sedan</p>
+                            <p class="red-para">6375 /-*</p>
+                        </div>
+                        <div>
+                            <p class="go-taxi">Mini</p>
+                            <p class="red-para">6045 /-*</p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="txamt-fl">
+                        <div>
+                            <p class="red-para">6375 /-*</p>
+                        </div>
+                        <div>
+                            <p class="red-para">6045 /-*</p>
+                        </div>
+                    </div>
+                </div>
+
+<!-- coimbatore to Kodaikanal starts -->
+
+				 <div class="mem-name mem-kodaikanal">
+                    <div>
+                        <h3 class="ch3">Coimbatore to Kodaikanal</h3>
+                        <div class="data-fl">
+                            <div class="svg-fl"><img src="/mirror/assets/www.redtaxi.co.in/images/location.svg" alt="Location" width="37" height="37" class="hauto">
+                                <p>450 Kms</p>
+                            </div>
+                            <div class="svg-fl"><img src="/mirror/assets/www.redtaxi.co.in/images/clock.svg" alt="Clock" width="27" height="26" class="hauto">
+                                <p>18 Hrs</p>
+                            </div>
+                        </div>
+                        <div class="txamt-flmob">
+                        <div>
+                            <p class="go-taxi">Sedan</p>
+                            <p class="red-para">6375 /-*</p>
+                        </div>
+                        <div>
+                            <p class="go-taxi">Mini</p>
+                            <p class="red-para">6045 /-*</p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="txamt-fl">
+                        <div>
+                            <p class="red-para">6375 /-*</p>
+                        </div>
+                        <div>
+                            <p class="red-para">6045 /-*</p>
+                        </div>
+                    </div>
+                </div>
+
+<!-- coimbatore to Guruvayoor starts -->
+<div class="mem-name mem-guruvayoor">
+                    <div>
+                        <h3 class="ch3">Coimbatore to Guruvayoor</h3>
+                        <div class="data-fl">
+                            <div class="svg-fl"><img src="/mirror/assets/www.redtaxi.co.in/images/location.svg" alt="Location" width="37" height="37" class="hauto">
+                                <p>300 Kms</p>
+                            </div>
+                            <div class="svg-fl"><img src="/mirror/assets/www.redtaxi.co.in/images/clock.svg" alt="Clock" width="27" height="26" class="hauto">
+                                <p>12 Hrs</p>
+                            </div>
+                        </div>
+                        <div class="txamt-flmob">
+                        <div>
+                            <p class="go-taxi">Sedan</p>
+                            <p class="red-para">4505 /-*</p>
+                        </div>
+                        <div>
+                            <p class="go-taxi">Mini</p>
+                            <p class="red-para">4275 /-*</p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="txamt-fl">
+                        <div>
+                            <p class="red-para">4505 /-*</p>
+                        </div>
+                        <div>
+                            <p class="red-para">4275 /-*</p>
+                        </div>
+                    </div>
+                </div>
+
+<!-- coimbatore to Valparai starts -->
+<div class="mem-name mem-valparai">
+                    <div>
+                        <h3 class="ch3">Coimbatore to Valparai</h3>
+                        <div class="data-fl">
+                            <div class="svg-fl"><img src="/mirror/assets/www.redtaxi.co.in/images/location.svg" alt="Location" width="37" height="37" class="hauto">
+                                <p>275 Kms</p>
+                            </div>
+                            <div class="svg-fl"><img src="/mirror/assets/www.redtaxi.co.in/images/clock.svg" alt="Clock" width="27" height="26" class="hauto">
+                                <p>18 Hrs</p>
+                            </div>
+                        </div>
+                        <div class="txamt-flmob">
+                        <div>
+                            <p class="go-taxi">Sedan</p>
+                            <p class="red-para">4725 /-*</p>
+                        </div>
+                        <div>
+                            <p class="go-taxi">Mini</p>
+                            <p class="red-para">4495 /-*</p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="txamt-fl">
+                        <div>
+                            <p class="red-para">4725 /-*</p>
+                        </div>
+                        <div>
+                            <p class="red-para">4495 /-*</p>
+                        </div>
+                    </div>
+                </div>
+
+				<div class="mem-name mem-palani">
+                    <div>
+                        <h3 class="ch3">Coimbatore to Palani</h3>
+                        <div class="data-fl">
+                            <div class="svg-fl"><img src="/mirror/assets/www.redtaxi.co.in/images/location.svg" alt="Location" width="37" height="37" class="hauto">
+                                <p>250 Kms</p>
+                            </div>
+                            <div class="svg-fl"><img src="/mirror/assets/www.redtaxi.co.in/images/clock.svg" alt="Clock" width="27" height="26" class="hauto">
+                                <p>12 Hrs</p>
+                            </div>
+                        </div>
+                        <div class="txamt-flmob">
+                        <div>
+                            <p class="go-taxi">Sedan</p>
+                            <p class="red-para">4075 /-*</p>
+                        </div>
+                        <div>
+                            <p class="go-taxi">Mini</p>
+                            <p class="red-para">3895 /-*</p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="txamt-fl">
+                        <div>
+                            <p class="red-para">4075 /-*</p>
+                        </div>
+                        <div>
+                            <p class="red-para">3895 /-*</p>
+                        </div>
+                    </div>
+                </div>
+
+
+				<div class="mem-name mem-madurai no-filter">
+                    <div>
+                        <h3 class="ch3">Coimbatore to Madurai</h3>
+                        <div class="data-fl">
+                            <div class="svg-fl"><img src="/mirror/assets/www.redtaxi.co.in/images/location.svg" alt="Location" width="37" height="37" class="hauto">
+                                <p>450 Kms</p>
+                            </div>
+                            <div class="svg-fl"><img src="/mirror/assets/www.redtaxi.co.in/images/clock.svg" alt="Clock" width="27" height="26" class="hauto">
+                                <p>18 Hrs</p>
+                            </div>
+                        </div>
+                        <div class="txamt-flmob">
+                        <div>
+                            <p class="go-taxi">Sedan</p>
+                            <p class="red-para">6225 /-*</p>
+                        </div>
+                        <div>
+                            <p class="go-taxi">Mini</p>
+                            <p class="red-para">5895 /-*</p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="txamt-fl">
+                        <div>
+                            <p class="red-para">6225 /-*</p>
+                        </div>
+                        <div>
+                            <p class="red-para">5895 /-*</p>
+                        </div>
+                    </div>
+                </div>
+
+
+				<div class="mem-name mem-topslip">
+                    <div>
+                        <h3 class="ch3">Coimbatore to Topslip (Pollachi)</h3>
+                        <div class="data-fl">
+                            <div class="svg-fl"><img src="/mirror/assets/www.redtaxi.co.in/images/location.svg" alt="Location" width="37" height="37" class="hauto">
+                                <p>200 Kms</p>
+                            </div>
+                            <div class="svg-fl"><img src="/mirror/assets/www.redtaxi.co.in/images/clock.svg" alt="Clock" width="27" height="26" class="hauto">
+                                <p>14 Hrs</p>
+                            </div>
+                        </div>
+                        <div class="txamt-flmob">
+                        <div>
+                            <p class="go-taxi">Sedan</p>
+                            <p class="red-para">3755 /-*</p>
+                        </div>
+                        <div>
+                            <p class="go-taxi">Mini</p>
+                            <p class="red-para">3525 /-*</p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="txamt-fl">
+                        <div>
+                            <p class="red-para">3755 /-*</p>
+                        </div>
+                        <div>
+                            <p class="red-para">3525 /-*</p>
+                        </div>
+                    </div>
+                </div>
+
+
+				<div class="mem-name mem-athirapally">
+                    <div>
+                        <h3 class="ch3">Coimbatore to Athirappilly Water Falls</h3>
+                        <div class="data-fl">
+                            <div class="svg-fl"><img src="/mirror/assets/www.redtaxi.co.in/images/location.svg" alt="Location" width="37" height="37" class="hauto">
+                                <p>450 Kms</p>
+                            </div>
+                            <div class="svg-fl"><img src="/mirror/assets/www.redtaxi.co.in/images/clock.svg" alt="Clock" width="27" height="26" class="hauto">
+                                <p>18 Hrs</p>
+                            </div>
+                        </div>
+                        <div class="txamt-flmob">
+                        <div>
+                            <p class="go-taxi">Sedan</p>
+                            <p class="red-para">6225 /-*</p>
+                        </div>
+                        <div>
+                            <p class="go-taxi">Mini</p>
+                            <p class="red-para">5905 /-*</p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="txamt-fl">
+                        <div>
+                            <p class="red-para">6225 /-*</p>
+                        </div>
+                        <div>
+                            <p class="red-para">5905 /-*</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+				<div class="mem-name mem-yercaud">
+                    <div>
+                        <h3 class="ch3">Coimbatore to Yercaud</h3>
+                        <div class="data-fl">
+                            <div class="svg-fl"><img src="/mirror/assets/www.redtaxi.co.in/images/location.svg" alt="Location" width="37" height="37" class="hauto">
+                                <p>420 Kms</p>
+                            </div>
+                            <div class="svg-fl"><img src="/mirror/assets/www.redtaxi.co.in/images/clock.svg" alt="Clock" width="27" height="26" class="hauto">
+                                <p>18 Hrs</p>
+                            </div>
+                        </div>
+                        <div class="txamt-flmob">
+                        <div>
+                            <p class="go-taxi">Sedan</p>
+                            <p class="red-para">5955 /-*</p>
+                        </div>
+                        <div>
+                            <p class="go-taxi">Mini</p>
+                            <p class="red-para">5635 /-*</p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="txamt-fl">
+                        <div>
+                            <p class="red-para">5955 /-*</p>
+                        </div>
+                        <div>
+                            <p class="red-para">5635 /-*</p>
+                        </div>
+                    </div>
+                </div>
+
+
+				<div class="mem-name mem-mysore">
+                    <div>
+                        <h3 class="ch3">Coimbatore to Mysore</h3>
+                        <div class="data-fl">
+                            <div class="svg-fl"><img src="/mirror/assets/www.redtaxi.co.in/images/location.svg" alt="Location" width="37" height="37" class="hauto">
+                                <p>450 Kms</p>
+                            </div>
+                            <div class="svg-fl"><img src="/mirror/assets/www.redtaxi.co.in/images/clock.svg" alt="Clock" width="27" height="26" class="hauto">
+                                <p>20 Hrs</p>
+                            </div>
+                        </div>
+                        <div class="txamt-flmob">
+                        <div>
+                            <p class="go-taxi">Sedan</p>
+                            <p class="red-para">6305 /-*</p>
+                        </div>
+                        <div>
+                            <p class="go-taxi">Mini</p>
+                            <p class="red-para">5985 /-*</p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="txamt-fl">
+                        <div>
+                            <p class="red-para">6305 /-*</p>
+                        </div>
+                        <div>
+                            <p class="red-para">5985 /-*</p>
+                        </div>
+                    </div>
+                </div>
+
+
+				<div class="mem-name mem-kutralam">
+                    <div>
+                        <h3 class="ch3">Coimbatore to Isha Yoga Center &amp; Kovai Kutralam</h3>
+                        <div class="data-fl">
+                            <div class="svg-fl"><img src="/mirror/assets/www.redtaxi.co.in/images/location.svg" alt="Location" width="37" height="37" class="hauto">
+                                <p>100 Kms</p>
+                            </div>
+                            <div class="svg-fl"><img src="/mirror/assets/www.redtaxi.co.in/images/clock.svg" alt="Clock" width="27" height="26" class="hauto">
+                                <p>5 Hrs</p>
+                            </div>
+                        </div>
+                        <div class="txamt-flmob">
+                        <div>
+                            <p class="go-taxi">Sedan</p>
+                            <p class="red-para">1795 /-*</p>
+                        </div>
+                        <div>
+                            <p class="go-taxi">Mini</p>
+                            <p class="red-para">1695 /-*</p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="txamt-fl">
+                        <div>
+                            <p class="red-para">1795 /-*</p>
+                        </div>
+                        <div>
+                            <p class="red-para">1695 /-*</p>
+                        </div>
+                    </div>
+                </div>
+
+
+				<div class="mem-name mem-aliyardam">
+                    <div>
+                        <h3 class="ch3">Coimbatore to Aliyar Dam (Pollachi)</h3>
+                        <div class="data-fl">
+                            <div class="svg-fl"><img src="/mirror/assets/www.redtaxi.co.in/images/location.svg" alt="Location" width="37" height="37" class="hauto">
+                                <p>150 Kms</p>
+                            </div>
+                            <div class="svg-fl"><img src="/mirror/assets/www.redtaxi.co.in/images/clock.svg" alt="Clock" width="27" height="26" class="hauto">
+                                <p>8 Hrs</p>
+                            </div>
+                        </div>
+                        <div class="txamt-flmob">
+                        <div>
+                            <p class="go-taxi">Sedan</p>
+                            <p class="red-para">2665 /-*</p>
+                        </div>
+                        <div>
+                            <p class="go-taxi">Mini</p>
+                            <p class="red-para">2505 /-*</p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="txamt-fl">
+                        <div>
+                            <p class="red-para">2665 /-*</p>
+                        </div>
+                        <div>
+                            <p class="red-para">2505 /-*</p>
+                        </div>
+                    </div>
+                </div>
+
+
+				<div class="mem-name mem-kodiveri">
+                    <div>
+                        <h3 class="ch3">Coimbatore to Kodiveri Dam</h3>
+                        <div class="data-fl">
+                            <div class="svg-fl"><img src="/mirror/assets/www.redtaxi.co.in/images/location.svg" alt="Location" width="37" height="37" class="hauto">
+                                <p>200 Kms</p>
+                            </div>
+                            <div class="svg-fl"><img src="/mirror/assets/www.redtaxi.co.in/images/clock.svg" alt="Clock" width="27" height="26" class="hauto">
+                                <p>12 Hrs</p>
+                            </div>
+                        </div>
+                        <div class="txamt-flmob">
+                        <div>
+                            <p class="go-taxi">Sedan</p>
+                            <p class="red-para">3675 /-*</p>
+                        </div>
+                        <div>
+                            <p class="go-taxi">Mini</p>
+                            <p class="red-para">3445 /-*</p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="txamt-fl">
+                        <div>
+                            <p class="red-para">3675 /-*</p>
+                        </div>
+                        <div>
+                            <p class="red-para">3445 /-*</p>
+                        </div>
+                    </div>
+                </div>
+
+
+				<div class="mem-name mem-malapuzha no-filter">
+                    <div>
+                        <h3 class="ch3">Coimbatore to Malampuzha Dam (Palakkad)</h3>
+                        <div class="data-fl">
+                            <div class="svg-fl"><img src="/mirror/assets/www.redtaxi.co.in/images/location.svg" alt="Location" width="37" height="37" class="hauto">
+                                <p>150 Kms</p>
+                            </div>
+                            <div class="svg-fl"><img src="/mirror/assets/www.redtaxi.co.in/images/clock.svg" alt="Clock" width="27" height="26" class="hauto">
+                                <p>6 Hrs</p>
+                            </div>
+                        </div>
+                        <div class="txamt-flmob">
+                        <div>
+                            <p class="go-taxi">Sedan</p>
+                            <p class="red-para">2365 /-*</p>
+                        </div>
+                        <div>
+                            <p class="go-taxi">Mini</p>
+                            <p class="red-para">2245 /-*</p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="txamt-fl">
+                        <div>
+                            <p class="red-para">2365 /-*</p>
+                        </div>
+                        <div>
+                            <p class="red-para">2245 /-*</p>
+                        </div>
+                    </div>
+                </div>
+
+				<p class="mb15 mtop15">FasTag Toll Charges, Parking, GST, and Interstate Permit Charges are extra  </p>
+				<p class="mb15 ">Extra KM and Extra Hour Charges Applicable </p>
+				<p><b>Note: </b>Additional km GoTaxi Rs.12/km &amp; RedTaxi Rs.13/km, Extra Hours Rs.100/Hr. </p>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+        </main>`;
+
+function Section04() {
+  return <RawHtmlBlock html={html} />;
+}
+
+export default Section04;

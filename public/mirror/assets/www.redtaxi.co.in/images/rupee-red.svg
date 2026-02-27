@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" width="60" height="60">
+	<title>New Project</title>
+	<defs>
+		<image width="300" height="300" id="img1" href="data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMzAgMzAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjMwMCIgaGVpZ2h0PSIzMDAiIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuZGV2L3N2Z2pzIj48ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB0cmFuc2Zvcm09Im1hdHJpeCgxLjQ2LDAsMCwxLjQ2LC02LjkwMDAwMDQzODY5MDE4NSwtNi45MDEzMzMxNzk0NzM4NzcpIj48cGF0aCBkPSJtMjAgMTBoLTIuMDlhNiA2IDAgMCAwIC0xLjQ1LTNoMy41NGExIDEgMCAwIDAgMC0yaC0xMGExIDEgMCAwIDAgMCAyaDJhNCA0IDAgMCAxIDMuODYgM2gtNS44NmExIDEgMCAwIDAgMCAyaDUuODZhNCA0IDAgMCAxIC0zLjg2IDNoLTJhMSAxIDAgMCAwIC0uOTIuNjIgMSAxIDAgMCAwIC4yMSAxLjA5bDggOGExIDEgMCAwIDAgMS40MiAwIDEgMSAwIDAgMCAwLTEuNDJsLTYuMzEtNi4yOWE2IDYgMCAwIDAgNS41MS01aDIuMDlhMSAxIDAgMCAwIDAtMnoiIGZpbGw9IiNjNTIwMzgiIGZpbGwtb3BhY2l0eT0iMSIgZGF0YS1vcmlnaW5hbC1jb2xvcj0iIzAwMDAwMGZmIiBzdHJva2U9Im5vbmUiIHN0cm9rZS1vcGFjaXR5PSIxIi8+PC9nPjwvc3ZnPg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="currency" href="#img1" transform="matrix(.2,0,0,.2,0,0)"/>
+</svg>

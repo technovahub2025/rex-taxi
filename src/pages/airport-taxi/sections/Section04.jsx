@@ -1,0 +1,629 @@
+import RawHtmlBlock from "../../../components/RawHtmlBlock.jsx";
+
+const html = `<main>
+
+        <section class="sub-bnr book-ban book-mob">
+ <div class="container">
+    <div class="sub-bnr-hed">
+       <h1>Airport Taxi</h1>
+    </div>
+ </div>
+ <img class="bshape" src="/mirror/assets/www.redtaxi.co.in/images/taxi-service-banner-shape.webp" alt="Taxi Service Banner Shape">
+</section>
+<section>
+<div class="container breadcrumb">
+<ul class="b-ul">
+<li><a href="/mirror/pages/index.html">Home</a></li>
+<li>/</li>
+<li><p>Airport Taxi</p></li>
+</ul>
+</div>
+</section>
+
+<section class="pspace  trip-section trips pad-reducer">
+    <div class="container"> 
+       <div class="trip-slider owl-carousel cdots off">
+    <div class="trip-col">
+    <div class="trip-img">
+	<picture>
+    <source srcset="/images/airport-taxi-service-in-coimbatore.webp" alt="Airport Taxi Service in Coimbatore" media="(max-width: 480px)">
+    <img src="/mirror/assets/www.redtaxi.co.in/images/airport-taxi-service-in-coimbatore.webp" alt="Airport Taxi Service in Coimbatore" width="550" height="350" class="hauto">
+    </picture>
+	</div>
+    <div class="trip-cnt">
+<h2 class="cab-ch3">Airport Taxi Service in Coimbatore</h2>
+<div class="tripcnt-grid">
+<p>We ensure punctuality, transparent fares, and experienced &amp; well-mannered drivers as a spectacle of our taxi service. With consistent deliveries, safety, and comfort during travel, we earn your trust.</p>
+<div class="tripcnt-link">
+<a href="/mirror/pages/booking.html" class="cbtn" aria-label="Link">Book Now</a>
+<a href="/mirror/pages/airport-taxi-service-in-coimbatore.html" class="cbtn-outline" aria-label="Book Now">View More</a>
+</div>
+</div>
+    </div>
+  
+</div>
+<div class="trip-col">
+    <div class="trip-img">
+	<picture>
+    <source srcset="/images/airport/airport-taxi-service-in-chennai.webp" alt="Airport Taxi Service in Chennai " media="(max-width: 480px)">
+    <img src="/mirror/assets/www.redtaxi.co.in/images/airport/airport-taxi-service-in-chennai.webp" alt="Airport Taxi Service in Chennai" width="550" height="350" class="hauto">
+    </picture>
+	</div>
+    <div class="trip-cnt">
+<h2 class="cab-ch3">Airport Taxi Service in Chennai</h2>
+<div class="tripcnt-grid">
+<p>Red Taxi provides an Airport Taxi Services in Chennai, guaranteeing on-time pickups and drop-offs while prioritizing safety, comfort, and transparency with no hidden fees.</p>
+<div class="tripcnt-link">
+<a href="/mirror/pages/booking.html" class="cbtn" aria-label="Link">Book Now</a>
+<a href="/mirror/pages/airport-taxi-service-in-chennai.html" class="cbtn-outline" aria-label="Book Now">View More</a>
+</div></div>
+    </div>
+   
+</div>
+
+<div class="trip-col">
+    <div class="trip-img">
+	<picture>
+    <source srcset="/images/airport/airport-taxi-service-in-trichy.webp" alt="Airport Taxi Service in Trichy " media="(max-width: 480px)">
+    <img src="/mirror/assets/www.redtaxi.co.in/images/airport/airport-taxi-service-in-trichy.webp" alt="Airport Taxi Service in Trichy" width="550" height="350" class="hauto">
+    </picture>
+	</div>
+    <div class="trip-cnt">
+<h2 class="cab-ch3">Airport Taxi Service in Trichy</h2>
+<div class="tripcnt-grid">
+<p>Timely service, fair rates, and well-trained chauffeurs define our Trichy Airport Taxi Service. Every effort is made by Red Taxi to ensure your trip-from your doorway to the terminal or from the airport to the city-is smooth and safe. </p>
+<div class="tripcnt-link">
+<a href="/mirror/pages/booking.html" class="cbtn" aria-label="Link">Book Now</a>
+<a href="/mirror/pages/airport-taxi-service-in-trichy.html" class="cbtn-outline" aria-label="Book Now">View More</a>
+</div>
+</div>
+    </div>
+   
+</div>
+
+ <div class="trip-col">
+    <div class="trip-img">
+	<picture>
+    <source srcset="/images/airport-taxi-service-in-madurai.webp" alt="Airport Taxi Service in Madurai" media="(max-width: 480px)">
+    <img src="/mirror/assets/www.redtaxi.co.in/images/airport-taxi-service-in-madurai.webp" alt="Airport Taxi Service in Madurai" width="550" height="350" class="hauto">
+    </picture>
+	</div>
+    <div class="trip-cnt">
+<h2 class="cab-ch3">Airport Taxi Service in Madurai</h2>
+<div class="tripcnt-grid">
+<p>Punctuality, honest pricing, and professional chauffeurs make our Madurai Airport Taxi Service the best. Red Taxi ensures that every ride is comfortable, safe, and in a well-maintained cab. </p>
+<div class="tripcnt-link">
+<a href="/mirror/pages/booking.html" class="cbtn" aria-label="Link">Book Now</a>
+<a href="/mirror/pages/airport-taxi-service-in-madurai.html" class="cbtn-outline" aria-label="Book Now">View More</a>
+</div></div>
+    </div>
+  
+</div>
+
+
+
+
+
+
+
+
+
+       </div>
+    </div>
+</section>
+
+
+
+ <style>
+.hover-line:hover {
+    color: var(--red);
+}
+
+.hover-line {
+    position: relative;
+    text-decoration: underline;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+
+.mem-kanchipuram::after {
+    background-image: url("/mirror/assets/www.redtaxi.co.in/images/kanchipuram-image.webp");
+}
+
+.mem-siruvapuri::after {
+    background-image: url("/mirror/assets/www.redtaxi.co.in/images/siruvapuri-balasubramani-temple.webp");
+}
+.mem-wonder::after {
+    background-image: url("/mirror/assets/www.redtaxi.co.in/images/wonderla.webp");
+}
+
+@media (min-width: 481px) {
+    .menqq li {list-style-type: none;border-radius: 30px 0px 0px 30px;height: 55px;padding: 0px 5px 0px 5px;margin: 15px 0px 15px -1px; -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;-o-transition: all 0.25s ease-in-out;transition: all 0.3s ease-out;cursor: pointer;background: #fff;box-shadow: 0 0 8px 0 #d5d5d5;transform: translateX(-5px);}
+	.menqq a {display: flex;align-items: center;gap: 0px 15px;padding-top: 7px;}
+	.menqq a span:first-child {background: #c52036;border-radius: 50%;display: flex;align-items: center;height: 40px;justify-content: center;width: 40px;}
+	.menqq a svg {width: 30px;height: 30px;}.menqq {display: none;}
+		.menqq {position: fixed;right: 0;top: 45%;right: -130px;z-index: 999;}
+	.menqq .cnow:hover {transform: translateX(-139px);}
+	.menqq .cnow.brochure:hover {transform: translateX(-125px);}}
+@media(max-width:480px){
+.dnow{border-right:1px solid #fff;}.copyright{padding-bottom:30px;}
+.menqq {display: grid;grid-template-columns: repeat(2,1fr);text-align: center;list-style-type: none;margin: 0px;background: #c71e36;position: fixed;
+bottom: 0;z-index: 9999;width: 100%;padding: 5px 0px;}
+.menqq a {line-height: 20px;display: flex;flex-wrap: wrap;flex-direction: column;align-items: center;justify-content: space-between;text-align: center;color: #fff;
+font-weight: 500;font-size: 14px;height: 100%;}
+.menqq svg {width: 30px;height: 30px;}.cnow.enow.cont-now {margin: 0 -8px 0 2px;}
+    }
+.mt30{margin-top:30px;}.pos{position:relative;}
+.book-img{
+	transform: scale(0.7);
+    background-color: transparent;
+    border-radius: 50%;
+}
+.ascroll li a:hover {
+    color: var(--red);
+}
+
+.ascroll li a.active {
+    color: var(--red);
+    font-weight: bold; /* Optional */
+}
+.google-img{
+   flex-direction:column;
+}
+.google-img a{height:auto}
+.term-row .google-img a{display:none;}
+.ftrimg {
+    margin-bottom: 120px;
+}
+@media (max-width: 1100px) {
+    .ftrimg {
+        margin-bottom: 30px;
+    }
+}
+@media(max-width:480px){
+   .google-img{
+   flex-direction:row;
+   margin:20px 0px;
+}
+.ftrimg {
+        margin-bottom: 20px;
+    }
+}
+
+
+.google-img.v2 ,.hm{
+	display:none;
+}
+.dummy-col .cablink{visibility:hidden;}
+.google-img.v1{margin-top:20px;}
+
+@media(max-width:480px){
+	
+	 .hm{
+	display:block;
+} 
+.dummy-col ,.google-img.v2{display:none;}
+
+    .airport-cbe {
+        background-image: url("/mirror/assets/www.redtaxi.co.in/images/subbanner/taxi-services-in-coimbatore-480.webp") !important;
+    }
+	
+	.airport-chennai {
+        background-image: url("/mirror/assets/www.redtaxi.co.in/images/subbanner/red-taxi-chennai-480.webp") !important;
+    }
+	.trichy-airport {
+        background-image: url("/mirror/assets/www.redtaxi.co.in/images/subbanner/red-taxi-trichy-480.webp") !important;
+    }
+	.madurai-airport {
+        background-image: url("/mirror/assets/www.redtaxi.co.in/images/subbanner/red-taxi-madurai-480.webp") !important;
+    }
+}
+
+
+</style>
+<div class="ftop-img">
+<picture>
+<source srcset="/images/red-taxi-outline-city-480.webp" media="(max-width: 480px)" class="hauto">
+<img src="/mirror/assets/www.redtaxi.co.in/images/cabs/red-taxi-outline-city-graphic.webp" alt="Red Taxi Outline City Graphic" width="1920" height="120" class="hauto" loading="lazy">
+</picture>
+						   
+
+</div>
+<footer>
+<div class="container">
+
+<div class="frow">
+   <div class="fcol1">
+      <div>
+   <div class="ftrimg">
+   <picture>
+   <source srcset="/images/red-taxi-logo-480.webp" media="(max-width: 480px)" class="hauto">
+   <img src="/mirror/assets/www.redtaxi.co.in/images/red-taxi-logo.webp" width="176" height="76" alt="Red Taxi Logo" class="hauto">
+   </picture>
+   
+   </div>
+   <p>Experience the cleanest, most comfortable, and well-maintained cabs in the city. Whether it’s a short ride or a city wide journey, RedTaxi ensures a smooth and happy journey every time</p>
+   </div>
+   <div class="ffsocial">
+<ul class="socials_links sicons">
+   <li><a href="https://www.facebook.com/redtaxi.ind" class="fbicon" target="_blank" aria-label="Link"></a></li>
+   <li><a href="https://www.instagram.com/redtaxicabs/" class="instaicon" target="_blank" aria-label="Link"></a></li>
+   <li><a href="https://twitter.com/REDTaxiInd" class="twiticon" target="_blank" aria-label="Link"></a></li>
+   <li><a href="https://whatsapp.com/channel/0029VbBsNetJ3juxYOQxoJ3p" class="wpicon" target="_blank" aria-label="Link"></a></li>
+</ul>
+</div>
+   </div>
+   <div class="flink-row">
+   <!-- first row starts-->
+  <div class="flinks">
+   <div class="fcol2">
+   <h3 class="bklink">Trips</h3>
+   <ul class="bklink2">
+      <li><a href="/mirror/pages/oneway-trip.html">Oneway Trip</a></li>
+      <li><a href="/mirror/pages/round-trip.html">Round Trip</a></li>
+      <li><a href="/mirror/pages/hourly-rental.html">Hourly Rental</a></li>
+	  <li><a href="/mirror/pages/bulk-booking.html" class="">Bulk Booking</a></li>
+	  <li><a href="/mirror/pages/airport-taxi.html" class="">Airport Taxi</a></li>
+   </ul>
+   </div>
+
+   <div class="fcol8">
+   <h3 class="crplink">Corporate</h3>
+   <ul class="crplink2">
+      <li><a href="/mirror/pages/corporate.html">Brand Collobration</a></li>
+      <li><a href="/mirror/pages/corporate.html">Trusted Brands</a></li>
+
+   </ul>
+   </div>
+   <div class="fcol4">
+   <h3 class="cablink">Cab Types</h3>
+   <ul class="cablink2">
+      <li><a href="/mirror/pages/cabs.html">Sedan</a></li>
+      <li><a href="/mirror/pages/cabs.html">Mini</a></li>
+      <li><a href="/mirror/pages/cabs.html">SUV</a></li>
+      <li><a href="/mirror/pages/cabs.html">Pink Taxi</a></li>
+      <li><a href="/mirror/pages/tempo-traveller-booking.html">Traveller</a></li>
+      <li><a href="/mirror/pages/urbania-van-booking.html">Urbania</a></li>
+   </ul>
+   </div>
+   <div class="fcol5">
+   
+   <h3 class="bdlink"><a href="/mirror/pages/driver.html">Become a Driver</a></h3>
+   <h3 class="bplink"><a href="/mirror/pages/contact-us.html">Contact Us</a></h3>
+   <h3 class="bdlink"><a href="/mirror/pages/career-apply.html">Careers</a></h3>
+   </div>
+  </div>
+     <!-- first row ends-->
+   <!-- second row starts -->
+  <div class="flinks">
+   <div class="fcol6">
+   <h3 class="ctlink">Cabs</h3>
+   <ul class="ctlink2">
+      <li><a href="/mirror/pages/coimbatore-cab-booking.html">Coimbatore</a></li>
+      <li><a href="/mirror/pages/chennai-cab-booking.html">Chennai</a></li>
+      <li><a href="/mirror/pages/trichy-cab-booking.html">Trichy</a></li>
+      <li><a href="/mirror/pages/madurai-cab-booking.html">Madurai</a></li>
+      <li><a href="/mirror/pages/erode-cab-booking.html">Erode</a></li>
+      <li><a href="/mirror/pages/salem-cab-booking.html">Salem</a></li>
+      <li><a href="/mirror/pages/tirupur-cab-booking.html">Tirupur</a></li>
+      <li><a href="/mirror/pages/pollachi-cab-booking.html">Pollachi</a></li>
+	  	<li class=""><a href="/mirror/pages/taxi-services-in-villupuram.html" class="">Villupuram</a></li> 
+	  	<li class=""><a href="/mirror/pages/taxi-services-in-puducherry.html" class="">Puducherry</a></li> 
+       <li class="hm"><a href="/mirror/pages/karur-cab-booking.html">Karur</a></li>
+      <li class="hm"><a href="/mirror/pages/tirunelveli-cab-booking.html">Tirunelveli</a></li>
+      <li class="hm"><a href="/mirror/pages/taxi-services-in-namakkal.html">Namakkal</a></li>
+      <li class="hm"><a href="/mirror/pages/taxi-services-in-vellore.html">Vellore</a></li>
+	   <li class="hm"><a href="/mirror/pages/taxi-services-in-hosur.html" class="vellore">Hosur</a></li> 
+        <li class="hm"><a href="/mirror/pages/taxi-services-in-mettupalayam.html" class="vellore">Mettupalayam</a></li> 
+        <li class="hm"><a href="/mirror/pages/taxi-services-in-thanjavur.html" class="vellore">Thanjavur</a></li> 
+        <li class="hm"><a href="/mirror/pages/taxi-services-in-dindigul.html" class="vellore">Dindigul</a></li> 
+	
+
+   </ul>
+   </div>
+   <div class="dummy-col">
+   <h3 class="cablink">Cabs</h3>
+   <ul class="cablink2">
+      <li><a href="/mirror/pages/karur-cab-booking.html">Karur</a></li>
+      <li><a href="/mirror/pages/tirunelveli-cab-booking.html">Tirunelveli</a></li>
+      <li><a href="/mirror/pages/taxi-services-in-namakkal.html">Namakkal</a></li>
+      <li><a href="/mirror/pages/taxi-services-in-vellore.html">Vellore</a></li>
+	   <li><a href="/mirror/pages/taxi-services-in-hosur.html" class="vellore">Hosur</a></li> 
+        <li><a href="/mirror/pages/taxi-services-in-mettupalayam.html" class="vellore">Mettupalayam</a></li> 
+        <li><a href="/mirror/pages/taxi-services-in-thanjavur.html" class="vellore">Thanjavur</a></li> 
+        <li><a href="/mirror/pages/taxi-services-in-dindigul.html" class="vellore">Dindigul</a></li>		
+   </ul>
+   </div>
+   
+    <div class="fcol9 hide1080">
+   <h3 class="abtlink">Quick Links</h3>
+   <ul class="abtlink2">
+      <li><a href="/mirror/pages/about-us.html">Profile</a></li>
+      <li><a href="/mirror/pages/support.html">Support</a></li>
+      <li><a href="/mirror/pages/blog.html">Blogs</a></li>
+      <li><a href="/mirror/pages/testimonials.html">Testimonials</a></li>
+   </ul>
+   <div class="google-img  v1">
+   <a href="https://play.google.com/store/apps/details?id=com.eaglefleet.redtaxi" target="_blank" aria-label="Link">
+   <img src="/mirror/assets/www.redtaxi.co.in/images/google-play.webp" alt="Google Play" width="238" height="65" class="hauto" loading="lazy"></a>
+   <a href="https://apps.apple.com/in/app/red-taxi/id1128644624" target="_blank" aria-label="Link">
+   <img src="/mirror/assets/www.redtaxi.co.in/images/cabs/app-store-icon.webp" alt="App Store Icon" width="238" height="65" class="hauto" loading="lazy"></a>
+</div>
+   </div>
+   <div class="google-img  v2">
+   <a href="https://play.google.com/store/apps/details?id=com.eaglefleet.redtaxi" target="_blank" aria-label="Link">
+   <img src="/mirror/assets/www.redtaxi.co.in/images/google-play.webp" alt="Google Play" width="238" height="65" class="hauto" loading="lazy"></a>
+   <a href="https://apps.apple.com/in/app/red-taxi/id1128644624" target="_blank" aria-label="Link">
+   <img src="/mirror/assets/www.redtaxi.co.in/images/cabs/app-store-icon.webp" alt="App Store Icon" width="238" height="65" class="hauto" loading="lazy"></a>
+</div>
+   <div class="fcol10">
+   
+   <h3><a href="/mirror/pages/driver.html">Become a Driver</a></h3>
+   <h3><a href="/mirror/pages/contact-us.html">Contact Us</a></h3>
+   <h3><a href="/mirror/pages/career-apply.html">Careers</a></h3>
+   </div>
+  </div>
+   <!-- second row ends -->
+  </div>
+</div>
+<div class="term-row">
+
+<div class="google-img">
+   <a href="https://apps.apple.com/in/app/red-taxi/id1128644624" target="_blank" aria-label="Link">
+   <img src="/mirror/assets/www.redtaxi.co.in/images/cabs/app-store-icon.webp" alt="App Store Icon" width="238" height="65" class="hauto" loading="lazy"></a>
+ 
+   <a href="https://play.google.com/store/apps/details?id=com.eaglefleet.redtaxi" target="_blank" aria-label="Link">
+   <img src="/mirror/assets/www.redtaxi.co.in/images/google-play.webp" alt="Google Play" width="238" height="65" class="hauto" loading="lazy"></a>
+</div>
+<div>
+<ul class="term-col">
+<li><a href="/mirror/pages/terms.html">Terms &amp; Conditions</a></li>
+<li><a href="/mirror/pages/privacy-policy.html">Privacy Policy</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="copyright">
+<div class="copyright">
+            <div class="container">
+             <div class="left">
+               <p>Copyright © 2026. Eagle Fleet Services Private Limited. <span class="no-wrap">All rights reserved.</span> </p>
+             </div>
+             <div class="right">
+                  <p>Designed &amp; Developed by <a class="ccolor appac-media" href="https://www.appacmedia.com/" target="_blank">Appac Mediatech Pvt Ltd..</a></p>
+             </div></div>
+         </div>
+<div class="book-a-cab-d">
+<a href="/mirror/pages/booking.html">
+<img src="/mirror/assets/www.redtaxi.co.in/images/book-cab-cta.webp" alt="Book a Cab Call-To-Action" width="250" height="250" class="hauto book-img">
+</a>
+</div>
+</div></footer>
+
+<ul class="menqq" style="opacity: 1; display:none;">
+<!--<li class="cnow dnow"><a href="tel:+04224567890" class="callbtn tbtn3 lnow"><span><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" class="svg-icon" viewBox="0 0 24 24"><g id="fePhone0" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1"><g id="fePhone1" fill="white"><path id="fePhone2" d="M4.024 9L4 8.931C3.46 7.384 3 5.27 3 4c0-.55.45-1 1-1h3a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2h-.837A16.054 16.054 0 0 0 15 17.837V17a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v3c0 .45-.55 1-1 1c-1.725 0-3.44-.456-5-1c-5.114-1.832-9.168-5.886-10.976-11Z"></path></g></g></svg></span>
+<span class="ph-btn">Call Now</span></a></li>-->
+<li class="cnow dnow"><a href="https://onelink.to/pu8v9g" class=" tbtn3 lnow downappbtn" target="_blank"><span><svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" viewBox="0 0 36 36"><path fill="#fff" d="M31 31H5a1 1 0 0 0 0 2h26a1 1 0 0 0 0-2" class="clr-i-outline clr-i-outline-path-1"></path><path fill="#fff" d="m18 29.48l10.61-10.61a1 1 0 0 0-1.41-1.41L19 25.65V5a1 1 0 0 0-2 0v20.65l-8.19-8.19a1 1 0 1 0-1.41 1.41Z" class="clr-i-outline clr-i-outline-path-2"></path><path fill="none" d="M0 0h36v36H0z"></path></svg></span>
+<span class="ph-btn">Download App</span></a></li>
+<li class="cnow enow cont-now">
+<a href="/mirror/pages/contact-us.html" class="callbtn lnow" aria-label="Enquiry Form"><span><svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" class="svg-icon" viewBox="0 0 36 36"><path fill="#fff" d="M32 6H4a2 2 0 0 0-2 2v20a2 2 0 0 0 2 2h28a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2Zm-1.54 22H5.66l7-7.24l-1.44-1.39L4 26.84V9.52l12.43 12.37a2 2 0 0 0 2.82 0L32 9.21v17.5l-7.36-7.36l-1.41 1.41ZM5.31 8h25.07L17.84 20.47Z" class="clr-i-outline clr-i-outline-path-1"></path><path fill="none" d="M0 0h36v36H0z"></path></svg></span>
+<span class="cal-btn">Let's Connect</span></a></li>
+</ul>
+
+<script src="/mirror/assets/cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="/mirror/assets/cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/js/bootstrap.min.js"></script>
+
+<script src="/mirror/assets/www.redtaxi.co.in/js/mscript.js"></script>
+<script src="/mirror/assets/www.redtaxi.co.in/js/script.js"></script>
+
+<script>
+ $(document).ready(function(){
+   $(window).scroll(function() {
+    if ($(this).scrollTop() > 100 ) {
+        $('.menqq:hidden').stop(true, true).fadeIn();
+        $(menqq).show();
+    } else {
+        $('.menqq').stop(true, true).fadeOut();
+        $('.menqq').hide();
+    }
+});
+});
+</script>
+
+<script>
+    $(".bklink").click(function(){
+	  $(this).toggleClass('iclose');
+      $(".bklink2").toggleClass("open");
+  });
+
+  $(".trlink").click(function(){
+	  $(this).toggleClass('iclose');
+      $(".trlink2").toggleClass("open");
+  });
+
+  $(".melink").click(function(){
+	  $(this).toggleClass('iclose');
+      $(".melink2").toggleClass("open");
+  });
+
+  $(".ctlink").click(function(){
+	  $(this).toggleClass('iclose');
+      $(".ctlink2").toggleClass("open");
+  });
+
+  $(".cablink").click(function(){
+	  $(this).toggleClass('iclose');
+      $(".cablink2").toggleClass("open");
+  });
+
+  $(".crplink").click(function(){
+	  $(this).toggleClass('iclose');
+      $(".crplink2").toggleClass("open");
+  });
+
+  $(".abtlink").click(function(){
+	  $(this).toggleClass('iclose');
+      $(".abtlink2").toggleClass("open");
+  });
+
+
+</script>
+<script>
+         jQuery(document).ready(function($) {
+	$('header').spSticyheader({
+    	hideHeaderTarget: '.preheader',
+    	scrollHeader: 200,
+    	customClass: 'make-small',
+    	mobileHeader: true
+  	})
+
+});
+// $(".qlh").click(function(){
+// 	  $(this).toggleClass('iclose');
+//       $(".qlinks").toggleClass("open");
+//   });
+
+$(document).ready(function(){
+   $(window).scroll(function() {
+    if ($(this).scrollTop() > 200 ) {
+        $('#scroll:hidden').stop(true, true).fadeIn();
+        $('#scroll').show();
+    } else {
+        $('#scroll').stop(true, true).fadeOut();
+        $('#scroll').hide();
+    }
+});
+});
+  $('.side-menu-close').on('click',function(){
+        $('html').toggleClass('oflow');
+    });
+window.onload = function(){
+
+ setTimeout(function(){
+  $(".sse").css("opacity","1");
+ }, 3000);
+
+};
+ $('#mmenu1 .tab-menu a').hover(function (e) {
+	  e.preventDefault()
+	  $('#mmenu1 .tab-pane').removeClass('active');
+    tabContentSelector = jQuery(this).attr('href');
+    $(this).tab('show');
+    $(tabContentSelector).addClass('active');
+	});
+        $('#mmenu2 .tab-menu a').hover(function (e) {
+	  e.preventDefault()
+	  $('#mmenu2 .tab-pane').removeClass('active');
+    tabContentSelector = jQuery(this).attr('href');
+    $(this).tab('show');
+    $(tabContentSelector).addClass('active');
+	});
+          $('#mmenu3 .tab-menu a').hover(function (e) {
+	  e.preventDefault()
+	  $('#mmenu3 .tab-pane').removeClass('active');
+    tabContentSelector = jQuery(this).attr('href');
+    $(this).tab('show');
+    $(tabContentSelector).addClass('active');
+	});
+             $('#mmenu4 .tab-menu a').hover(function (e) {
+	  e.preventDefault()
+	  $('#mmenu4 .tab-pane').removeClass('active');
+    tabContentSelector = jQuery(this).attr('href');
+    $(this).tab('show');
+    $(tabContentSelector).addClass('active');
+	});
+
+   $('.mlink6').on('click',function(){
+      window.location.href='coimbatore-cab-booking';
+   });
+   $('.mlink7').on('click',function(){
+      window.location.href='erode-cab-booking';
+   });
+   $('.mlink8').on('click',function(){
+      window.location.href='salem-cab-booking';
+   });
+   $('.mlink9').on('click',function(){
+      window.location.href='tirupur-cab-booking';
+   });
+   $('.mlink10').on('click',function(){
+      window.location.href='trichy-cab-booking';
+   });
+   $('.mlink11').on('click',function(){
+      window.location.href='madurai-taxi';
+   });
+   $('.mlink12').on('click',function(){
+      window.location.href='oneway-trip';
+   });
+   $('.mlink13').on('click',function(){
+      window.location.href='round-trip';
+   });
+   $('.mlink14').on('click',function(){
+      window.location.href='hourly-rental';
+   });
+   $('.mlink15').on('click',function(){
+      window.location.href='chennai-cab-booking';
+   });
+$(function($) {
+ let url = window.location.href;
+  $('nav ul li a').each(function() {
+   if (this.href === url) {
+   $(this).addClass('active');
+  }
+ });
+});
+
+$(function($) {
+ let url = window.location.href;
+  $("nav ul li a").each(function(){
+        if(url==""){
+		$('.home a').addClass("active");}
+    })
+});
+
+
+</script>
+<script>
+var sections = $('.hbor'),
+    nav = $('.sticklist'),
+    nav_height = nav.outerHeight();
+
+$(window).on('scroll', function () {
+    var cur_pos = $(this).scrollTop();
+
+    sections.each(function () {
+        var top = $(this).offset().top - nav_height,
+            bottom = top + $(this).outerHeight();
+
+        if (cur_pos >= top && cur_pos <= bottom) {
+            nav.find('a').removeClass('active');
+            sections.removeClass('active');
+
+            $(this).addClass('active');
+            nav.find('a[href="#' + $(this).attr('id') + '"]').addClass('active');
+
+            console.log('Active section:', $(this).attr('id')); // Debugging
+        }
+    });
+});
+
+nav.find('a').on('click', function () {
+    var $el = $(this),
+        id = $el.attr('href');
+
+    $('html, body').animate({
+        scrollTop: $(id).offset().top - nav_height - 100,
+    }, 500);
+
+    return false;
+});
+</script>    <script src="/mirror/assets/www.redtaxi.co.in/js/owl.carousel.min.js"></script></main>`;
+
+function Section04() {
+  return <RawHtmlBlock html={html} />;
+}
+
+export default Section04;
