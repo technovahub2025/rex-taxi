@@ -84,7 +84,23 @@ const normalizeInlineScript = (inlineCode) =>
     .replace(/(['"])\/?urbania(?:\.html)?\1/g, "$1/urbania-van-booking$1")
     .replace(/(['"])\/?blogs(?:\.html)?\1/g, "$1/blog$1")
     .replace(/(['"])\/?book-a-trip(?:\.html)?\1/g, "$1/booking$1")
-    .replace(/(['"])\/?madurai-taxi(?:\.html)?\1/g, "$1/madurai-cab-booking$1");
+    .replace(/(['"])\/?madurai-taxi(?:\.html)?\1/g, "$1/madurai-cab-booking$1")
+    .replace(
+      /window\.location(?:\.href)?\s*=\s*['"]\/thanks(?:\.php)?['"]/g,
+      "window.location.href = \"/mirror/pages/index.html\""
+    )
+    .replace(
+      /window\.location\.assign\(\s*['"]\/thanks(?:\.php)?['"]\s*\)/g,
+      "window.location.assign(\\\"/mirror/pages/index.html\\\")"
+    )
+    .replace(
+      /window\.location\.replace\(\s*['"]\/thanks(?:\.php)?['"]\s*\)/g,
+      "window.location.replace(\\\"/mirror/pages/index.html\\\")"
+    )
+    .replace(
+      /alert\(([^)]*Thank you for contacting us\.[\s\S]*?Our team will contact you soon[^)]*)\);?/g,
+      'window.__showMirrorSuccessPopup("Thank you for contacting us.","Our team will contact you soon");'
+    );
 
 function usePageAssets({ title, links = [], styles = [], scripts = [] }) {
   useEffect(() => {
@@ -117,6 +133,93 @@ function usePageAssets({ title, links = [], styles = [], scripts = [] }) {
       document.head.appendChild(style);
       added.push(style);
     });
+
+    if (!window.__showMirrorSuccessPopup) {
+      const popupStyle = document.createElement("style");
+      popupStyle.setAttribute("data-mirror-popup-style", "1");
+      popupStyle.textContent = `
+        .mirror-popup-overlay {
+          position: fixed;
+          inset: 0;
+          background: rgba(0, 0, 0, 0.55);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          opacity: 0;
+          visibility: hidden;
+          transition: opacity 0.2s ease, visibility 0.2s ease;
+          z-index: 99999;
+          padding: 16px;
+        }
+        .mirror-popup-overlay.open {
+          opacity: 1;
+          visibility: visible;
+        }
+        .mirror-popup-card {
+          width: min(460px, 92vw);
+          background: #ffffff;
+          border-radius: 16px;
+          box-shadow: 0 16px 40px rgba(0, 0, 0, 0.25);
+          padding: 24px 20px 18px;
+          border-top: 5px solid #c52038;
+          text-align: center;
+          font-family: "Plus Jakarta Sans", sans-serif;
+        }
+        .mirror-popup-title {
+          margin: 0 0 8px;
+          font-size: 28px;
+          line-height: 1.2;
+          color: #151515;
+          font-weight: 700;
+        }
+        .mirror-popup-subtitle {
+          margin: 0 0 18px;
+          font-size: 19px;
+          line-height: 1.35;
+          color: #c52038;
+          font-weight: 600;
+        }
+        .mirror-popup-btn {
+          border: 0;
+          border-radius: 999px;
+          background: #111;
+          color: #fff;
+          min-width: 110px;
+          padding: 11px 22px;
+          font-size: 16px;
+          font-weight: 600;
+          cursor: pointer;
+        }
+      `;
+      document.head.appendChild(popupStyle);
+      added.push(popupStyle);
+
+      const popup = document.createElement("div");
+      popup.className = "mirror-popup-overlay";
+      popup.innerHTML = `
+        <div class="mirror-popup-card" role="dialog" aria-modal="true" aria-label="Success Message">
+          <h3 class="mirror-popup-title">Thank you for contacting us.</h3>
+          <p class="mirror-popup-subtitle">Our team will contact you soon</p>
+          <button type="button" class="mirror-popup-btn">OK</button>
+        </div>
+      `;
+      document.body.appendChild(popup);
+      added.push(popup);
+
+      const titleEl = popup.querySelector(".mirror-popup-title");
+      const subtitleEl = popup.querySelector(".mirror-popup-subtitle");
+      const close = () => popup.classList.remove("open");
+      popup.querySelector(".mirror-popup-btn")?.addEventListener("click", close);
+      popup.addEventListener("click", (e) => {
+        if (e.target === popup) close();
+      });
+
+      window.__showMirrorSuccessPopup = (title, subtitle) => {
+        if (titleEl) titleEl.textContent = title || "Thank you for contacting us.";
+        if (subtitleEl) subtitleEl.textContent = subtitle || "Our team will contact you soon";
+        popup.classList.add("open");
+      };
+    }
 
     document.querySelectorAll("a[href]").forEach((anchor) => {
       const href = anchor.getAttribute("href");
@@ -164,6 +267,7 @@ function usePageAssets({ title, links = [], styles = [], scripts = [] }) {
 
     return () => {
       added.forEach((node) => node.remove());
+      delete window.__showMirrorSuccessPopup;
       document.title = previousTitle;
     };
   }, [title, links, styles, scripts]);

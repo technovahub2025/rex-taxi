@@ -1732,52 +1732,99 @@ nav.find('a').on('click', function () {
 
     <script>
       $(document).ready(function() {
+          function ensureSuccessPopup() {
+              if (document.getElementById("rt-success-popup")) return;
 
-$("#from, #to").on("input", function () {
-    this.value = this.value.replace(/[0-9]/g, ""); 
-});
+              var style = document.createElement("style");
+              style.textContent = ".rt-popup-overlay{position:fixed;inset:0;background:rgba(0,0,0,.55);display:flex;align-items:center;justify-content:center;z-index:99999;opacity:0;visibility:hidden;transition:.2s;padding:16px}.rt-popup-overlay.open{opacity:1;visibility:visible}.rt-popup-card{width:min(460px,92vw);background:#fff;border-radius:16px;border-top:5px solid #c52038;box-shadow:0 18px 40px rgba(0,0,0,.25);padding:24px 20px 18px;text-align:center;font-family:'Plus Jakarta Sans',sans-serif}.rt-popup-title{margin:0 0 10px;font-size:30px;line-height:1.2;color:#151515;font-weight:700}.rt-popup-sub{margin:0 0 18px;font-size:20px;line-height:1.35;color:#c52038;font-weight:600}.rt-popup-btn{border:0;border-radius:999px;background:#101010;color:#fff;min-width:110px;padding:11px 22px;font-size:16px;font-weight:600;cursor:pointer}";
+              document.head.appendChild(style);
 
+              var modal = document.createElement("div");
+              modal.id = "rt-success-popup";
+              modal.className = "rt-popup-overlay";
+              modal.innerHTML = '<div class="rt-popup-card" role="dialog" aria-modal="true" aria-label="Success message"><h3 class="rt-popup-title">Thank you for contacting us.</h3><p class="rt-popup-sub">Our team will contact you soon</p><button type="button" class="rt-popup-btn">OK</button></div>';
+              document.body.appendChild(modal);
 
-    $(".applyBtn").click(function(e) {
-        let form = $(this).closest("form")[0]; // Native DOM form element
+              modal.querySelector(".rt-popup-btn").addEventListener("click", function () {
+                  modal.classList.remove("open");
+              });
+              modal.addEventListener("click", function (e) {
+                  if (e.target === modal) modal.classList.remove("open");
+              });
+          }
 
-        if (!form.checkValidity()) {
-            // If form is invalid, show browser validation messages
-            form.reportValidity();
-            return;
-        }
+          function showSuccessPopup() {
+              ensureSuccessPopup();
+              document.getElementById("rt-success-popup").classList.add("open");
+          }
 
-        e.preventDefault(); // Now prevent only if valid
+          $(document).on("input", ".form-section input[name='from'], .form-section input[name='to']", function () {
+              this.value = this.value.replace(/[0-9]/g, "");
+          });
 
-        let formData = new FormData(form); // Create FormData object
-        let submitButton = $(this); // Store reference to the button
+          function activateBookingTab($link) {
+              var targetSelector = $link.attr("href");
+              if (!targetSelector || targetSelector.charAt(0) !== "#") return;
 
-        $.ajax({
-            url: "hometripmail.php",
-            type: "POST",
-            data: formData,
-            contentType: false,
-            processData: false,
-            dataType: "json",
-            beforeSend: function() {
-                submitButton.val("Submitting...").prop("disabled", true);
-            },
-            success: function(response) {
-                if (response.status === "error") {
-                    alert(response.messages.join("\n"));
-                } else {
-                    form.reset(); // Reset form
-                    window.location.href = "/thanks.php";
-                }
-                submitButton.val("Submit").prop("disabled", false);
-            },
-            error: function() {
-                alert("An unexpected error occurred. Please try again.");
-                submitButton.val("Submit").prop("disabled", false);
-            }
-        });
-    });
-});
+              var $section = $link.closest(".form-section");
+              $section.find(".appicon-grd li").removeClass("active");
+              $section.find(".appicon-grd a").removeClass("active");
+              $section.find(".tab-content .tab-pane").removeClass("active show");
+
+              $link.closest("li").addClass("active");
+              $link.addClass("active");
+              $section.find(targetSelector).addClass("active show");
+          }
+
+          $(document).on("click", ".form-section .appicon-grd a[data-toggle='tab']", function (e) {
+              e.preventDefault();
+              activateBookingTab($(this));
+
+              if ($.fn.tab) {
+                  $(this).tab("show");
+              }
+          });
+
+          $(document).on("click", ".form-section .applyBtn", function (e) {
+              e.preventDefault();
+
+              var form = $(this).closest("form")[0];
+              if (!form) return;
+
+              if (!form.checkValidity()) {
+                  form.reportValidity();
+                  return;
+              }
+
+              var formData = new FormData(form);
+              var submitButton = $(this);
+
+              $.ajax({
+                  url: (window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1") ? "/api/hometripmail.php" : "https://www.redtaxi.co.in/hometripmail.php",
+                  type: "POST",
+                  data: formData,
+                  contentType: false,
+                  processData: false,
+                  dataType: "json",
+                  beforeSend: function() {
+                      submitButton.val("Submitting...").prop("disabled", true);
+                  },
+                  success: function(response) {
+                      if (response.status === "error") {
+                          alert(response.messages.join("\n"));
+                      } else {
+                          form.reset();
+                          showSuccessPopup();
+                      }
+                      submitButton.val("Submit").prop("disabled", false);
+                  },
+                  error: function() {
+                      alert("An unexpected error occurred. Please try again.");
+                      submitButton.val("Submit").prop("disabled", false);
+                  }
+              });
+          });
+      });
 
 
         $(document).ready(function() {
