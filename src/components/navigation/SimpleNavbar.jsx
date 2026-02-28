@@ -1,5 +1,4 @@
 import { useMemo, useState } from "react";
-import { Link } from "react-router-dom";
 import pageRoutes from "../../generated/pageRoutes.jsx";
 import { HIDDEN_ROUTES } from "../../config/pageVisibility.js";
 import NavLinks from "./NavLinks.jsx";
@@ -16,9 +15,9 @@ function SimpleNavbar() {
   return (
     <nav className="navbar navbar-expand-lg bg-white border-bottom sticky-top">
       <div className="container-fluid px-3 px-lg-4">
-        <Link className="navbar-brand fw-bold text-danger" to="/">
+        <a className="navbar-brand fw-bold text-danger" href="/mirror/pages/index.html">
           Red Taxi
-        </Link>
+        </a>
 
         <button
           type="button"

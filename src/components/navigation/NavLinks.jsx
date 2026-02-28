@@ -1,17 +1,17 @@
-import { NavLink } from "react-router-dom";
-
 function NavLinks({ links = [], onNavigate }) {
+  const currentPath = window.location.pathname;
+
   return (
     <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
       {links.map((item) => (
         <li className="nav-item" key={item.path}>
-          <NavLink
-            to={item.path}
+          <a
+            href={item.mirrorHref || item.path}
             onClick={onNavigate}
-            className={({ isActive }) => `nav-link ${isActive ? "active fw-semibold" : ""}`}
+            className={`nav-link ${currentPath === item.path ? "active fw-semibold" : ""}`}
           >
             {item.label}
-          </NavLink>
+          </a>
         </li>
       ))}
     </ul>

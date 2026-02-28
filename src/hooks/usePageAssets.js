@@ -102,7 +102,7 @@ const normalizeInlineScript = (inlineCode) =>
       'window.__showMirrorSuccessPopup("Thank you for contacting us.","Our team will contact you soon");'
     );
 
-function usePageAssets({ title, links = [], styles = [], scripts = [] }) {
+function usePageAssets({ title, links = [], styles = [], scripts = [], rewriteAnchors = true }) {
   useEffect(() => {
     const previousTitle = document.title;
     if (title) {
@@ -221,23 +221,25 @@ function usePageAssets({ title, links = [], styles = [], scripts = [] }) {
       };
     }
 
-    document.querySelectorAll("a[href]").forEach((anchor) => {
-      const href = anchor.getAttribute("href");
-      const normalized = normalizeToRoute(href);
-      if (normalized && normalized !== href) {
-        anchor.setAttribute("href", normalized);
-      }
-
-      const routeKey = toRouteKey(normalized || href);
-      if (routeKey && HIDDEN_ROUTES.includes(routeKey)) {
-        const wrapper = anchor.closest("li, .menu-item, .nav-item, .cab-col, .trip-col, .card");
-        if (wrapper) {
-          wrapper.remove();
-        } else {
-          anchor.remove();
+    if (rewriteAnchors) {
+      document.querySelectorAll("a[href]").forEach((anchor) => {
+        const href = anchor.getAttribute("href");
+        const normalized = normalizeToRoute(href);
+        if (normalized && normalized !== href) {
+          anchor.setAttribute("href", normalized);
         }
-      }
-    });
+
+        const routeKey = toRouteKey(normalized || href);
+        if (routeKey && HIDDEN_ROUTES.includes(routeKey)) {
+          const wrapper = anchor.closest("li, .menu-item, .nav-item, .cab-col, .trip-col, .card");
+          if (wrapper) {
+            wrapper.remove();
+          } else {
+            anchor.remove();
+          }
+        }
+      });
+    }
 
     document.querySelectorAll("a, button, span, h1, h2, h3, h4, h5, h6, p, div").forEach((el) => {
       const text = (el.textContent || "").trim().toLowerCase();
@@ -270,7 +272,7 @@ function usePageAssets({ title, links = [], styles = [], scripts = [] }) {
       delete window.__showMirrorSuccessPopup;
       document.title = previousTitle;
     };
-  }, [title, links, styles, scripts]);
+  }, [title, links, styles, scripts, rewriteAnchors]);
 }
 
 export default usePageAssets;

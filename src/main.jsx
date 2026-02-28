@@ -8,6 +8,9 @@ import App from "./App.jsx";
 if (window.location.pathname === "/") {
   window.location.replace("/mirror/pages/index.html");
 }
+if (window.location.pathname === "/fare-estimator" || window.location.pathname === "/fare-estimator/") {
+  window.location.replace("/mirror/pages/fare-estimator.html");
+}
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

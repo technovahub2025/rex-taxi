@@ -59,6 +59,7 @@ import BlogTop5WeekendDestinationsNearMaduraiPage from "../pages/blog/top-5-week
 import BlogSpiritualRideToSabarimalaInRedTaxisComfortPage from "../pages/blog/spiritual-ride-to-sabarimala-in-red-taxis-comfort/index.jsx";
 import CorporateRefundPolicyPage from "../pages/corporate-refund-policy/index.jsx";
 import CorporateCancellationPolicyPage from "../pages/corporate-cancellation-policy/index.jsx";
+import FareEstimatorPage from "../pages/fare-estimator/index.jsx";
 
 const pageRoutes = [
   { path: "/", component: HomePage },
@@ -121,7 +122,8 @@ const pageRoutes = [
   { path: "/blog/top-5-weekend-destinations-near-madurai", component: BlogTop5WeekendDestinationsNearMaduraiPage },
   { path: "/blog/spiritual-ride-to-sabarimala-in-red-taxis-comfort", component: BlogSpiritualRideToSabarimalaInRedTaxisComfortPage },
   { path: "/corporate-refund-policy", component: CorporateRefundPolicyPage },
-  { path: "/corporate-cancellation-policy", component: CorporateCancellationPolicyPage }
+  { path: "/corporate-cancellation-policy", component: CorporateCancellationPolicyPage },
+  { path: "/fare-estimator", component: FareEstimatorPage }
 ];
 
 export default pageRoutes;

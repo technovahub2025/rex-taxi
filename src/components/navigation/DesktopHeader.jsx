@@ -120,6 +120,11 @@ const html = `<header class="sp-sticky make-small">
   <!-- Nav tabs -->
 </div>
                 </li>
+                <li itemprop="name">
+                <a class="d-block" href="/mirror/pages/fare-estimator.html" itemprop="url">
+                  <span>Fare Estimator</span>
+                </a>
+                </li>
                  <li class="dm22" itemprop="name">
                 <a class="d-block" href="/mirror/pages/partner.html" itemprop="url">
                   <span>Become a Partner</span>
