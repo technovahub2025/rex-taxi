@@ -1,0 +1,27 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="695" height="708" viewBox="0 0 695 708" fill="none">
+  <defs>
+    <filter id="shadow-soft" x="70" y="40" width="560" height="640" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#9E9E9E" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="695" height="708" fill="#F2F2F2"/>
+
+  <g filter="url(#shadow-soft)">
+    <path d="M170 96L250 74L338 82L406 62L480 78L540 126L562 198L554 272L524 344L534 420L506 500L446 576L368 618L296 610L236 572L190 514L164 440L142 370L126 302L132 232L146 170L170 96Z" fill="#ECECEC"/>
+  </g>
+
+  <path d="M170 96L250 74L338 82L406 62L480 78L540 126L562 198L554 272L524 344L534 420L506 500L446 576L368 618L296 610L236 572L190 514L164 440L142 370L126 302L132 232L146 170L170 96Z" fill="#ECECEC" stroke="#D3D3D3" stroke-width="3"/>
+
+  <path d="M214 154L324 166L418 150L500 176" stroke="#CACACA" stroke-width="2"/>
+  <path d="M186 226L286 222L384 234L514 220" stroke="#CACACA" stroke-width="2"/>
+  <path d="M162 294L282 292L374 304L506 292" stroke="#CACACA" stroke-width="2"/>
+  <path d="M154 362L266 360L356 374L486 364" stroke="#CACACA" stroke-width="2"/>
+  <path d="M166 430L274 432L366 446L468 440" stroke="#CACACA" stroke-width="2"/>
+  <path d="M194 498L294 504L384 514L452 510" stroke="#CACACA" stroke-width="2"/>
+
+  <path d="M252 124L230 574" stroke="#D8D8D8" stroke-width="2"/>
+  <path d="M332 98L312 604" stroke="#D8D8D8" stroke-width="2"/>
+  <path d="M412 92L394 588" stroke="#D8D8D8" stroke-width="2"/>
+  <path d="M486 116L470 538" stroke="#D8D8D8" stroke-width="2"/>
+</svg>
