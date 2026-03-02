@@ -66,3 +66,23 @@
     };
 })(jQuery);
 
+
+// Fallback for mirrored pages: if a mobile <source> points to missing /images/*, use sibling <img src>.
+(function () {
+    function fixBrokenPictureSources() {
+        var sources = document.querySelectorAll('picture source[srcset^="/images/"], picture source[srcset^="images/"]');
+        sources.forEach(function (source) {
+            var picture = source.closest('picture');
+            if (!picture) return;
+            var img = picture.querySelector('img');
+            if (!img || !img.getAttribute('src')) return;
+            source.setAttribute('srcset', img.getAttribute('src'));
+        });
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', fixBrokenPictureSources);
+    } else {
+        fixBrokenPictureSources();
+    }
+})();
