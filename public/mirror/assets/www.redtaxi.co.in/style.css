@@ -31,3 +31,113 @@ footer a, footer h1, footer h2, footer h3, footer h4, footer h5, footer h6 {word
   header .main-menu>li>a{padding:0 .7vw !important;}
 }
 
+
+/* Responsive safety patch: mobile-first overrides without changing desktop layout */
+@media (max-width: 992px) {
+  html, body {
+    overflow-x: hidden;
+  }
+
+  .container {
+    width: 92% !important;
+  }
+
+  img, video, iframe {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .map-grid,
+  .c5grid,
+  .corporate-grid,
+  .tripcnt-grid,
+  .offer-row,
+  .state-slider,
+  .frow,
+  .flinks,
+  .flink-row,
+  .form-grid,
+  .icon-grid,
+  .grid-2,
+  .grid3,
+  .cabs1-grid,
+  .hosur-grid {
+    grid-template-columns: 1fr !important;
+    gap: 20px !important;
+  }
+
+  .cab-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 16px !important;
+  }
+
+  .cab-col {
+    height: auto !important;
+    min-height: 320px;
+  }
+
+  .cab-img img {
+    position: static !important;
+    width: min(100%, 300px) !important;
+    margin: 10px auto 0;
+    display: block;
+  }
+
+  .taxi-col {
+    flex-direction: column !important;
+    padding: 30px 20px 40px !important;
+    gap: 20px;
+  }
+
+  .taxi-col img {
+    position: static !important;
+    width: min(100%, 360px) !important;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .w70,
+  .w11,
+  .maduraiw70 {
+    width: 100% !important;
+  }
+
+  .book-a-cab-d {
+    width: 74px;
+    height: 74px;
+    right: 10px;
+    bottom: 95px;
+  }
+
+  .book-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .i-banner-btn-div {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 94% !important;
+  }
+
+  .cab-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .ch1,
+  .textWrapper .bh1 {
+    font-size: 34px !important;
+    line-height: 1.2 !important;
+    word-spacing: normal;
+  }
+
+  .bh1 .hspan {
+    font-size: 22px !important;
+    line-height: 1.25 !important;
+  }
+}
