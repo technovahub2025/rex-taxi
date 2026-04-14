@@ -5,10 +5,23 @@
       "dest": "https://www.redtaxi.co.in/$1"
     },
     {
-      "handle": "filesystem"
+      "src": "/test_redTaxi/assets/(.*)",
+      "dest": "/assets/$1"
     },
     {
-      "src": "/.*",
+      "src": "/test_redTaxi/mirror/(.*)",
+      "dest": "/mirror/$1"
+    },
+    {
+      "src": "/test_redTaxi/vite.svg",
+      "dest": "/vite.svg"
+    },
+    {
+      "src": "/test_redTaxi",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/test_redTaxi/(.*)",
       "dest": "/index.html"
     }
   ]
