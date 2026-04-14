@@ -5,16 +5,20 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./index.css";
 import App from "./App.jsx";
 
-if (window.location.pathname === "/") {
-  window.location.replace("/mirror/pages/index.html");
+const basePath = import.meta.env.BASE_URL.replace(/\/$/, "");
+const appRootPath = `${basePath}/`;
+const fareEstimatorPath = `${basePath}/fare-estimator`;
+
+if (window.location.pathname === basePath || window.location.pathname === appRootPath) {
+  window.location.replace(`${basePath}/mirror/pages/index.html`);
 }
-if (window.location.pathname === "/fare-estimator" || window.location.pathname === "/fare-estimator/") {
-  window.location.replace("/mirror/pages/fare-estimator.html");
+if (window.location.pathname === fareEstimatorPath || window.location.pathname === `${fareEstimatorPath}/`) {
+  window.location.replace(`${basePath}/mirror/pages/fare-estimator.html`);
 }
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/test_redTaxi">
       <App />
     </BrowserRouter>
   </StrictMode>,

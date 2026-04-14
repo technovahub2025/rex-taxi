@@ -1,8 +1,15 @@
 {
-  "rewrites": [
+  "routes": [
     {
-      "source": "/api/:path*",
-      "destination": "https://www.redtaxi.co.in/:path*"
+      "src": "/api/(.*)",
+      "dest": "https://www.redtaxi.co.in/$1"
+    },
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "/.*",
+      "dest": "/index.html"
     }
   ]
 }

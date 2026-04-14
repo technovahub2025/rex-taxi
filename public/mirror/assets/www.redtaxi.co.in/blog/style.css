@@ -65,7 +65,7 @@ h1,h2,h3,h4,h5,h6 {font-family: "Prompt", sans-serif;margin: 0;word-spacing: -2p
   .main-menu a span {position: relative;display: flex;color: #fff;font-size: 18px;transition: all 0.3s ease;
     letter-spacing: 1px;}
   .main-menu a.active span::after, .main-menu a:hover span::after {position: absolute;content: '';width: 15px;
-   height: 10px;background: url("/mirror/assets/www.redtaxi.co.in/blog/images/arrow.png") no-repeat;background-size: contain;margin-top: -10px;transition: all 0.3s linear;}
+   height: 10px;background: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/arrow.png") no-repeat;background-size: contain;margin-top: -10px;transition: all 0.3s linear;}
  .main-menu {margin-right: 0;}
    .enbtn::after, .ltalk::after, .cbtn::after {content: '';position: absolute;left: 0;top: 0;width: 0;height: 100%;background: var(--yellow);transition: all 0.5s ease;z-index: -1;border-radius: 5px;}.enbtn:hover span {color: #000 !important;}header .main-menu .enbtn:hover::after {width: 100%;}
   .enbtn::after{content: '';position: absolute;left: 0;top: 0;width: 0;height: 100%;background:var(--yellow);transition: all 0.5s ease;z-index: -1;
@@ -309,7 +309,7 @@ footer {border-top: 1px solid rgb(102 102 102 / 30%);padding: 60px 0 0;}
 .becom-img  img {width: 90px;}.becom-row {display: grid;grid-template-columns: repeat(2, 1fr);gap: 50px;}
 .becom-col:hover{    box-shadow: 2px 4px 16px #00000029;    transform: scale3d(1.01, 1.01, 1.01);}
 .becom-btn {margin-bottom: 10px;}
-.ride-sec {background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/get-the-ride-your-deserve-image.webp");background-attachment: fixed;background-position: 0px 50px;background-repeat:no-repeat;height: 600px;overflow:hidden;background-size: cover;}
+.ride-sec {background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/get-the-ride-your-deserve-image.webp");background-attachment: fixed;background-position: 0px 50px;background-repeat:no-repeat;height: 600px;overflow:hidden;background-size: cover;}
 .ch2 {font-size: 38px;line-height: 43px;font-weight: 500;letter-spacing: -1px;word-spacing: -2px;}
 .ride-col .f20 {font-size: 24px;line-height: 30px;font-weight: 500;color:#000;margin: 20px 0;}
 .ride-col p {color:#eeeeee;width: 55%;}.ride-col .ch2 {color: #fff;}.ride-col {width: 50%;}
@@ -341,62 +341,62 @@ footer {border-top: 1px solid rgb(102 102 102 / 30%);padding: 60px 0 0;}
     left: 45%;    transition: 0.4s cubic-bezier(0.8, 0, 0.1, 1);
     transform: scale(0) translate(0%, -0%) rotate(0.001deg);
     border-radius: 10px;opacity: 0;}.mem-name:hover::after {opacity: 1; transform: scale(1) translate(0%, 0%) rotate(0.001deg);transition: 0.6s cubic-bezier(0.8, 0, 0.1, 1);}
-.mem-ooty::after { background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/ooty-image.webp");}
-.mem-munnar::after { background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/munnar-image.webp");}
-.mem-kodaikanal::after { background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/kodaikanal.webp");}
-.mem-guruvayoor::after { background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/guruvayoor.webp");}
-.mem-valparai::after { background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/valparai.webp");}
-.mem-palani::after { background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/palani-image.webp");}
-.mem-madurai::after { background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/madurai.webp");}
-.mem-topslip::after { background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/topslip-pollachi.webp");}
-.mem-athirapally::after { background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/athirapalli-waterfalls.webp");}
-.mem-yercaud::after { background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/yercaud.webp");}
-.mem-mysore::after { background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/mysore.webp");}
-.mem-kutralam::after { background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/isha-yoga-center.webp");}
-.mem-aliyardam::after { background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/aliyar-dam-image.webp");}
-.mem-kodiveri::after { background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/kodiveri-dam.webp");}
-.mem-malapuzha::after { background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/malampuzha-dam.webp");}
-.mem-kolli::after{background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/kollimalai.webp");}
-.mem-bargur::after{background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/bargur.webp");}
-.mem-kodiveri::after{background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/kodiveri.webp");}
-.mem-hogenakkal::after{background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/hogenakkal-fall.webp");}
-.mem-mettur::after{background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/mettur.webp");}
-.mem-bhavani::after{background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/bhavani.webp");}
-.mem-hasanur::after{background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/hasanur.webp");}
-.mem-bandipur::after{background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/bandipur-img.webp");}
-.mem-thirumoorthy::after{background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/thirumoorthy-dam.webp");}
-.mem-trichy::after{background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/trichy.webp");}
-.mem-samayapuram::after{background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/samayapuram-image.webp");}
-.mem-velankanni::after{background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/velankanni-chruch.webp");}
-.mem-chennai::after{background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/chennai.webp");}
-.mem-pollachi::after{background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/pollachi.webp");}
-.mem-kanyakumari::after{background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/kanyakumari.webp");}
-.mem-anjaneyar::after{background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/anjaneyar.webp");}
-.mem-mahadeshwara::after{background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/mahadeshwara.webp");}
-.mem-yelagiri::after{background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/yelagiri.webp");}
-.mem-bengaluru::after{background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/bengaluru.webp");}
-.mem-puduchery::after{background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/puduchery.webp");}
-.mem-mysur::after{background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/mysur.webp");}
-.mem-meghamalai::after{background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/meghamalai.webp");}
-.mem-avinashi::after{background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/avinash-lingeshwara-tirupur.webp");}
-.mem-amaravathi-dam::after{background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/amaravathi-dam.webp");}
-.mem-vattamalai::after{background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/vattamalai.webp");}
-.mem-thanjavur::after{background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/thanjavur-image.webp");}
-.mem-kumbakonam::after{background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/kumbakonam-temple.webp");}
-.mem-rameshwaram::after{background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/rameshwaram.webp");}
-.mem-mayiladuthurai::after{background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/mayiladuthurai.webp");}
-.mem-chidambaram::after{background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/chidambaram.webp");}
-.mem-coimbatore::after{background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/coimbatore1.webp");}
-.mem-pudukottai::after{background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/pudukottai.webp");}
-.mem-karaikal::after{background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/karaikal.webp");}
-.mem-ariyalur::after{background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/ariyalur.webp");}
-.mem-kumuli::after{background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/kumuli.webp");}
-.mem-suruli::after{background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/suruli-falls.webp");}
-.mem-kutralam::after{background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/kutralam.webp");}
-.mem-sirumalai::after{background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/sirumalai.webp");}
-.mem-kumbakarai::after{background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/kumbakarai.webp");}
-.mem-papanasam::after{background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/papanasam.webp");}
-.mem-srirangam::after{background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/srirangam.webp");}
+.mem-ooty::after { background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/ooty-image.webp");}
+.mem-munnar::after { background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/munnar-image.webp");}
+.mem-kodaikanal::after { background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/kodaikanal.webp");}
+.mem-guruvayoor::after { background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/guruvayoor.webp");}
+.mem-valparai::after { background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/valparai.webp");}
+.mem-palani::after { background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/palani-image.webp");}
+.mem-madurai::after { background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/madurai.webp");}
+.mem-topslip::after { background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/topslip-pollachi.webp");}
+.mem-athirapally::after { background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/athirapalli-waterfalls.webp");}
+.mem-yercaud::after { background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/yercaud.webp");}
+.mem-mysore::after { background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/mysore.webp");}
+.mem-kutralam::after { background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/isha-yoga-center.webp");}
+.mem-aliyardam::after { background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/aliyar-dam-image.webp");}
+.mem-kodiveri::after { background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/kodiveri-dam.webp");}
+.mem-malapuzha::after { background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/malampuzha-dam.webp");}
+.mem-kolli::after{background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/kollimalai.webp");}
+.mem-bargur::after{background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/bargur.webp");}
+.mem-kodiveri::after{background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/kodiveri.webp");}
+.mem-hogenakkal::after{background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/hogenakkal-fall.webp");}
+.mem-mettur::after{background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/mettur.webp");}
+.mem-bhavani::after{background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/bhavani.webp");}
+.mem-hasanur::after{background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/hasanur.webp");}
+.mem-bandipur::after{background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/bandipur-img.webp");}
+.mem-thirumoorthy::after{background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/thirumoorthy-dam.webp");}
+.mem-trichy::after{background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/trichy.webp");}
+.mem-samayapuram::after{background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/samayapuram-image.webp");}
+.mem-velankanni::after{background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/velankanni-chruch.webp");}
+.mem-chennai::after{background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/chennai.webp");}
+.mem-pollachi::after{background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/pollachi.webp");}
+.mem-kanyakumari::after{background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/kanyakumari.webp");}
+.mem-anjaneyar::after{background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/anjaneyar.webp");}
+.mem-mahadeshwara::after{background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/mahadeshwara.webp");}
+.mem-yelagiri::after{background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/yelagiri.webp");}
+.mem-bengaluru::after{background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/bengaluru.webp");}
+.mem-puduchery::after{background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/puduchery.webp");}
+.mem-mysur::after{background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/mysur.webp");}
+.mem-meghamalai::after{background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/meghamalai.webp");}
+.mem-avinashi::after{background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/avinash-lingeshwara-tirupur.webp");}
+.mem-amaravathi-dam::after{background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/amaravathi-dam.webp");}
+.mem-vattamalai::after{background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/vattamalai.webp");}
+.mem-thanjavur::after{background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/thanjavur-image.webp");}
+.mem-kumbakonam::after{background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/kumbakonam-temple.webp");}
+.mem-rameshwaram::after{background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/rameshwaram.webp");}
+.mem-mayiladuthurai::after{background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/mayiladuthurai.webp");}
+.mem-chidambaram::after{background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/chidambaram.webp");}
+.mem-coimbatore::after{background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/coimbatore1.webp");}
+.mem-pudukottai::after{background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/pudukottai.webp");}
+.mem-karaikal::after{background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/karaikal.webp");}
+.mem-ariyalur::after{background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/ariyalur.webp");}
+.mem-kumuli::after{background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/kumuli.webp");}
+.mem-suruli::after{background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/suruli-falls.webp");}
+.mem-kutralam::after{background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/kutralam.webp");}
+.mem-sirumalai::after{background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/sirumalai.webp");}
+.mem-kumbakarai::after{background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/kumbakarai.webp");}
+.mem-papanasam::after{background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/papanasam.webp");}
+.mem-srirangam::after{background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/srirangam.webp");}
 
 
 
@@ -528,7 +528,7 @@ text-align: right;position: absolute;z-index: 9;height: 100%;align-items: flex-e
     content: '';
     height: 991px;
     width: 948px;
-    background: url("/mirror/assets/www.redtaxi.co.in/blog/images/main-bnr-shape-left.png");
+    background: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/main-bnr-shape-left.png");
     top: 0px;
     background-position: -210px -134px;
     mix-blend-mode: overlay;
@@ -541,7 +541,7 @@ text-align: right;position: absolute;z-index: 9;height: 100%;align-items: flex-e
     content: '';
     height: 799px;
     width: 845px;
-    background: url("/mirror/assets/www.redtaxi.co.in/blog/images/main-bnrshape.png");
+    background: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/main-bnrshape.png");
     top: 0px;
     background-position: -1px -130px;
     mix-blend-mode: overlay;
@@ -706,7 +706,7 @@ position: absolute;right: 10px;transition: 0.5s;}.answer p {padding: 15px 25px;}
 .clarity-col {display: flex;overflow: hidden;border-radius: 40px;}.dapp-col {position: relative;}
 .download-app .local-pos img {width: auto;transition: .3s linear;}.local-pos {position: absolute;top: 12%;right: 2%;height: 130px;}
 img.vert-move {-webkit-animation: mover 1s infinite alternate;animation: mover 1s infinite alternate;}
-.batch-col,.cabs-hatch,.icon,.icon-container{position:absolute}@keyframes mover{0%{transform:translateY(0)}100%{transform:translateY(-10px)}}@-webkit-keyframes mover{0%{transform:translateY(0)}100%{transform:translateY(-10px)}}.cabs-car>img{border-radius: 30px;display: flex;overflow: hidden;z-index: -1;position: relative;}.booking-sec .cabs-car1,.fair-cabs .booking-sec .cabs-car{position:relative;width:800px}.cabs-hatch{bottom:-90px;right:25%;animation:1s infinite alternate moveLeftRight}.batch-col{bottom:-137px;right:15%;z-index:-1}.icon,.icon1{font-size:31px;z-index:1}@keyframes moveLeftRight{0%{transform:translateX(-10px)}100%{transform:translateX(10px)}}.icon-container{display:flex;flex-direction:column;align-items:center;height:250px;width:100px;right:10%;top:30%;justify-content:space-between}.icon{left:-17px;top:-14px}.path,.timeline::before{position:absolute;top:0;height:100%}.icon1{position:absolute;bottom:20px;right:0}.path{left:0;width:100%;z-index:0}.box{width:60px;height:60px;display:block;margin:10px auto auto;background:0 0;animation:1s .2s infinite updown;z-index:99}.circle,.highlight,.inner,.shadow,.square{position:relative;margin:auto;padding:0}.highlight,.inner{z-index:3;border-radius:50%}.circle{background-color:#ef2929;width:36px;height:36px;top:12px;border-radius:50%}.inner{background-color:#fff;width:12px;height:12px;top:12px}.highlight{width:36px;height:36px;top:-12px;left:.5px;border-top:2px solid #ff7676;transform:rotate(30deg)}.square{background-color:#ef2929;width:18px;height:18px;bottom:2px;transform:rotate(-45deg);z-index:2;border-bottom-left-radius:2px}.shadow{background-color:#000;width:33px;height:6px;border-radius:50%;bottom:0;opacity:.2;z-index:0;animation:1s .2s infinite shadow}@keyframes updown{0%,100%{transform:translateY(0)}50%{transform:translateY(2.4px)}}@keyframes shadow{0%,100%{transform:scale(1);opacity:.2}50%{transform:scale(.95);opacity:.28}}.quote-img{margin-bottom:15px}.timeline{display:flex;flex-direction:column;align-items:center;position:relative;padding:20px 0}.timeline::before{content:"";bottom:0;left:50%;width:2%;min-width:64px;background:url("/mirror/assets/www.redtaxi.co.in/blog/images/road.png");display:block;transform:translateX(-50%)}.milestone{display:flex;width:100%;max-width:1130px;margin:20px 0;align-items:center;position:relative;opacity:0;transform:translateY(50px);transition:opacity .6s,transform .6s}.car,.moving-taxi{position:sticky;top:350px}.milestone.visible{opacity:1;transform:translateY(0)}.milestone:nth-child(2n){flex-direction:row-reverse}.milestone .content{background:#f1f1f1;border-radius:25px;padding:30px 40px;width:45%;text-align:right;position:relative;box-shadow:0 4px 6px rgba(0,0,0,.1)}.milestone .content h2{color:var(--dred);margin-bottom:15px;font-weight:500;font-size:44px;line-height:50px}.milestone:nth-child(odd) .content::after{right:-10px}.milestone:nth-child(2n) .content::after{left:-10px}.mile-odd p{text-align:right;width:85%;margin-right:0;margin-left:auto}.mile-even p{width:80%}.mile-even h2{text-align:left}.car{z-index:99;width:30px;margin-left:3px}
+.batch-col,.cabs-hatch,.icon,.icon-container{position:absolute}@keyframes mover{0%{transform:translateY(0)}100%{transform:translateY(-10px)}}@-webkit-keyframes mover{0%{transform:translateY(0)}100%{transform:translateY(-10px)}}.cabs-car>img{border-radius: 30px;display: flex;overflow: hidden;z-index: -1;position: relative;}.booking-sec .cabs-car1,.fair-cabs .booking-sec .cabs-car{position:relative;width:800px}.cabs-hatch{bottom:-90px;right:25%;animation:1s infinite alternate moveLeftRight}.batch-col{bottom:-137px;right:15%;z-index:-1}.icon,.icon1{font-size:31px;z-index:1}@keyframes moveLeftRight{0%{transform:translateX(-10px)}100%{transform:translateX(10px)}}.icon-container{display:flex;flex-direction:column;align-items:center;height:250px;width:100px;right:10%;top:30%;justify-content:space-between}.icon{left:-17px;top:-14px}.path,.timeline::before{position:absolute;top:0;height:100%}.icon1{position:absolute;bottom:20px;right:0}.path{left:0;width:100%;z-index:0}.box{width:60px;height:60px;display:block;margin:10px auto auto;background:0 0;animation:1s .2s infinite updown;z-index:99}.circle,.highlight,.inner,.shadow,.square{position:relative;margin:auto;padding:0}.highlight,.inner{z-index:3;border-radius:50%}.circle{background-color:#ef2929;width:36px;height:36px;top:12px;border-radius:50%}.inner{background-color:#fff;width:12px;height:12px;top:12px}.highlight{width:36px;height:36px;top:-12px;left:.5px;border-top:2px solid #ff7676;transform:rotate(30deg)}.square{background-color:#ef2929;width:18px;height:18px;bottom:2px;transform:rotate(-45deg);z-index:2;border-bottom-left-radius:2px}.shadow{background-color:#000;width:33px;height:6px;border-radius:50%;bottom:0;opacity:.2;z-index:0;animation:1s .2s infinite shadow}@keyframes updown{0%,100%{transform:translateY(0)}50%{transform:translateY(2.4px)}}@keyframes shadow{0%,100%{transform:scale(1);opacity:.2}50%{transform:scale(.95);opacity:.28}}.quote-img{margin-bottom:15px}.timeline{display:flex;flex-direction:column;align-items:center;position:relative;padding:20px 0}.timeline::before{content:"";bottom:0;left:50%;width:2%;min-width:64px;background:url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/road.png");display:block;transform:translateX(-50%)}.milestone{display:flex;width:100%;max-width:1130px;margin:20px 0;align-items:center;position:relative;opacity:0;transform:translateY(50px);transition:opacity .6s,transform .6s}.car,.moving-taxi{position:sticky;top:350px}.milestone.visible{opacity:1;transform:translateY(0)}.milestone:nth-child(2n){flex-direction:row-reverse}.milestone .content{background:#f1f1f1;border-radius:25px;padding:30px 40px;width:45%;text-align:right;position:relative;box-shadow:0 4px 6px rgba(0,0,0,.1)}.milestone .content h2{color:var(--dred);margin-bottom:15px;font-weight:500;font-size:44px;line-height:50px}.milestone:nth-child(odd) .content::after{right:-10px}.milestone:nth-child(2n) .content::after{left:-10px}.mile-odd p{text-align:right;width:85%;margin-right:0;margin-left:auto}.mile-even p{width:80%}.mile-even h2{text-align:left}.car{z-index:99;width:30px;margin-left:3px}
 
 .lgrid2{display:grid;grid-template-columns:50% 50%;gap:15px;margin-bottom:20px}.parrows1 li{position:relative;padding-left:30px;margin-bottom:10px}.parrows1 li::after{content:'';position:absolute;background:url('data:image/svg+xml,%3Csvg xmlns="http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg" width="24" height="24" viewBox="0 0 24 24"%3E%3Cg transform="rotate(90 12 12)"%3E%3Cpath fill="%23C52038" fill-rule="evenodd" d="M11.47 3.47a.75.75 0 0 1 1.06 0l6 6a.75.75 0 1 1-1.06 1.06l-4.72-4.72V20a.75.75 0 0 1-1.5 0V5.81l-4.72 4.72a.75.75 0 1 1-1.06-1.06l6-6Z" clip-rule="evenodd"%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E') 0 0/20px no-repeat;width:20px;height:20px;right:auto;left:0;bottom:auto;top:2px}.parrows1{margin-bottom:40px}.file-upload{display:block;text-align:center;font-size:12px;margin-top:10px}.file-upload .file-select{border:2px solid var(--yellow);cursor:pointer;height:45px;line-height:40px;text-align:left;display:flex;border-radius:5px;background:#fff;overflow:hidden;position:relative}.file-upload .file-select .file-select-button{background:var(--yellow);padding:0 10px;display:inline-block;height:45px;line-height:40px;width:50%}.file-upload .file-select .file-select-name{line-height:40px;display:inline-block;padding:0 10px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;width:50%}.file-upload .file-select input[type=file]{z-index:100;cursor:pointer;position:absolute;height:100%;width:100%;top:0;left:0;opacity:0}.w60 {width: 60%;margin: auto;}.form-flex {display: flex;gap: 15px;}.date {color: #858585;font-size: 15px;}
 
@@ -833,7 +833,7 @@ font-size: 15px;line-height: 24px;color: #1e1e1e;resize: none;}
 
 .sub-bnr{
     position:relative;
-    background:url("/mirror/assets/www.redtaxi.co.in/blog/images/sub-bnr-img.png");
+    background:url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/sub-bnr-img.png");
         background-size: cover;
     height:400px;
     overflow:hidden;
@@ -1229,13 +1229,13 @@ opacity: 0.8;
 
 
 
-.sub-bnr{position:relative;background:url("/mirror/assets/www.redtaxi.co.in/blog/images/blog.webp");background-size: cover !important;height:400px;overflow:hidden;transition:0.5s linear;}
-.about-ban {background:url("/mirror/assets/www.redtaxi.co.in/blog/images/about-us-subanner.webp");}
-.corporate-ban {background:url("/mirror/assets/www.redtaxi.co.in/blog/images/corporate.webp");}
-.cbe-ban {background:url("/mirror/assets/www.redtaxi.co.in/blog/images/cbe.webp");}
-.partner-ban {background:url("/mirror/assets/www.redtaxi.co.in/blog/images/become-a-partner-subanner.webp");}
-.driver-ban {background:url("/mirror/assets/www.redtaxi.co.in/blog/images/driver.webp");}
-.cnt-ban {background:url("/mirror/assets/www.redtaxi.co.in/blog/images/contact-us-subanner.webp");}
+.sub-bnr{position:relative;background:url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/blog.webp");background-size: cover !important;height:400px;overflow:hidden;transition:0.5s linear;}
+.about-ban {background:url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/about-us-subanner.webp");}
+.corporate-ban {background:url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/corporate.webp");}
+.cbe-ban {background:url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/cbe.webp");}
+.partner-ban {background:url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/become-a-partner-subanner.webp");}
+.driver-ban {background:url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/driver.webp");}
+.cnt-ban {background:url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/contact-us-subanner.webp");}
 
 
 
@@ -1741,7 +1741,7 @@ opacity: 0.8;
 
 .pbox{
     display: inline-block;
-   background-image: url("/mirror/assets/www.redtaxi.co.in/blog/images/logo-bg.png");
+   background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/logo-bg.png");
    background-size: 100%; /* Width and height of the background */
   background-repeat: no-repeat; /* Prevents tiling */
   background-position: center; /* Centers the image */
@@ -2211,27 +2211,27 @@ opacity: 0.8;
 }
 
 .m20{margin:20px;}
-.book-ban{background: url("/mirror/assets/www.redtaxi.co.in/blog/images/bookatrip.webp")!important;}
+.book-ban{background: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/bookatrip.webp")!important;}
 
 
-.about-ban {background-image:url("/mirror/assets/www.redtaxi.co.in/blog/images/about-us-subanner.webp")!important;}
-.corporate-ban {background-image:url("/mirror/assets/www.redtaxi.co.in/blog/images/corporate-bnr.webp")!important;}
-.cbe-ban {background-image:url("/mirror/assets/www.redtaxi.co.in/blog/images/cbe.webp");}
-.partner-ban {background-image:url("/mirror/assets/www.redtaxi.co.in/blog/images/become-a-partner-subanner.webp")!important;}
-.driver-ban {background-image:url("/mirror/assets/www.redtaxi.co.in/blog/images/driver.webp")!important;}
-.cnt-ban {background-image:url("/mirror/assets/www.redtaxi.co.in/blog/images/roundtrip.webp")!important;}
-.bone {background-image:url("/mirror/assets/www.redtaxi.co.in/blog/images/oneway.webp")!important;}
-.hourbanner {background-image:url("/mirror/assets/www.redtaxi.co.in/blog/images/rental-bnr.webp")!important;}
-.roundbnr {background-image:url("/mirror/assets/www.redtaxi.co.in/blog/images/roundtrip.webp")!important;}
-.support-bnr {background-image:url("/mirror/assets/www.redtaxi.co.in/blog/images/support.webp")!important;}
-.test-bnr{background-image:url("/mirror/assets/www.redtaxi.co.in/blog/images/testmonials.webp")!important;}
-.che-bnr{background-image:url("/mirror/assets/www.redtaxi.co.in/blog/images/chennai.webp")!important;}
-.er-bnr{background-image:url("/mirror/assets/www.redtaxi.co.in/blog/images/erode.webp")!important;}
-.salem-bnr{background-image:url("/mirror/assets/www.redtaxi.co.in/blog/images/salem.webp")!important;}
-.t-bnr{background-image:url("/mirror/assets/www.redtaxi.co.in/blog/images/tirupur.webp")!important;}
-.tri-bnr{background-image:url("/mirror/assets/www.redtaxi.co.in/blog/images/trichy.webp")!important;}
-.madurai-bnr{background-image:url("/mirror/assets/www.redtaxi.co.in/blog/images/madurai-banner.jpg")!important;}
-.abt-bnr{background-image:url("/mirror/assets/www.redtaxi.co.in/blog/images/abt-us-bnr.webp")!important;}
+.about-ban {background-image:url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/about-us-subanner.webp")!important;}
+.corporate-ban {background-image:url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/corporate-bnr.webp")!important;}
+.cbe-ban {background-image:url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/cbe.webp");}
+.partner-ban {background-image:url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/become-a-partner-subanner.webp")!important;}
+.driver-ban {background-image:url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/driver.webp")!important;}
+.cnt-ban {background-image:url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/roundtrip.webp")!important;}
+.bone {background-image:url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/oneway.webp")!important;}
+.hourbanner {background-image:url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/rental-bnr.webp")!important;}
+.roundbnr {background-image:url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/roundtrip.webp")!important;}
+.support-bnr {background-image:url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/support.webp")!important;}
+.test-bnr{background-image:url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/testmonials.webp")!important;}
+.che-bnr{background-image:url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/chennai.webp")!important;}
+.er-bnr{background-image:url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/erode.webp")!important;}
+.salem-bnr{background-image:url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/salem.webp")!important;}
+.t-bnr{background-image:url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/tirupur.webp")!important;}
+.tri-bnr{background-image:url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/trichy.webp")!important;}
+.madurai-bnr{background-image:url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/madurai-banner.jpg")!important;}
+.abt-bnr{background-image:url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/abt-us-bnr.webp")!important;}
 .pad-reducer {
     padding-top: 60px;
 }
@@ -2259,7 +2259,7 @@ header .enbtn {
 
 @media (max-width: 1300px) {.main-menu .desknone {display:block !important;}}
 @media(max-width:480px){
-.blog-bnr{background-image:url("/mirror/assets/www.redtaxi.co.in/blog/images/blog-mob.webp")!important;}.pad-reducer {
+.blog-bnr{background-image:url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/blog/images/blog-mob.webp")!important;}.pad-reducer {
     padding-top: 30px;
 }
 }

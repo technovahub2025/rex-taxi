@@ -6,6 +6,7 @@ import { NAV_LINKS } from "./navLinks.js";
 
 function SimpleNavbar() {
   const [open, setOpen] = useState(false);
+  const baseUrl = import.meta.env.BASE_URL;
 
   const links = useMemo(() => {
     const allowedPaths = new Set(pageRoutes.map((item) => item.path));
@@ -15,7 +16,7 @@ function SimpleNavbar() {
   return (
     <nav className="navbar navbar-expand-lg bg-white border-bottom sticky-top">
       <div className="container-fluid px-3 px-lg-4">
-        <a className="navbar-brand fw-bold text-danger" href="/mirror/pages/index.html">
+        <a className="navbar-brand fw-bold text-danger" href={`${baseUrl}mirror/pages/index.html`}>
           Red Taxi
         </a>
 

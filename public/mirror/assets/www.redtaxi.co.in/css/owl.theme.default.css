@@ -195,7 +195,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PF7659F"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->    <style>
-.megamenu.cities,.megamenu.cities.bookTrip{right:8%;padding:30px;border-radius:0 0 30px 30px}.book-div,.book-div1{align-content:center;display:grid}.content-div,.m-dimg,.m-dimg img{position:relative}.megamenu{background:#c71e36}.megamenu.cities{width:1200px!important}.megamenu.cities.bookTrip{width:1000px!important}.cities .mwidth .tab-menu,.cities .mwidth .tab-menu a:hover{background:0 0}.bookTrip .menu-wrp{display:grid;grid-template-columns:32% 21% 47%}.menu-wrp{display:grid;grid-template-columns:25% 35% 40%}.book-div1{grid-template-columns:repeat(2,1fr);gap:15px 10px}.book-div{grid-template-columns:repeat(1,1fr);gap:15px 0}.menu-div{display:grid;grid-template-columns:repeat(2,1fr)}.content-div .active,.m-dimg .active{display:block}.content-div p{display:block;font-size:2em;font-weight:700;color:#fff}.mimg-d{display:flex;align-items:center;justify-content:flex-end;margin:0 30px}.m-dimg img{object-fit:cover;height:190px;width:300px;object-position:left;z-index:2}.m-dimg::after{border-image-width:2;content:'';position:absolute;background:url("/mirror/assets/www.redtaxi.co.in/css/images/shape.webp") bottom/395px 80px no-repeat;bottom:-20px;left:-84px;width:132%;height:100%;z-index:1;pointer-events:none}.book-div div,.menu-div div{padding:5px 0}.content-div{display:grid;align-items:start;align-content:space-between;justify-content:space-between}.content-div button{padding:11px 40px!important;border-radius:25px;margin-left:0!important;border:1px solid #fff;color:#fff;font-size:19px;line-height:23px;transition:.3s;cursor:pointer}@media(max-width:1400px){.megamenu.cities{width:1100px!important;right:8%;padding:30px;border-radius:0 0 30px 30px}}.main-menu a.active span,.main-menu a:hover span{color:var(--red)}
+.megamenu.cities,.megamenu.cities.bookTrip{right:8%;padding:30px;border-radius:0 0 30px 30px}.book-div,.book-div1{align-content:center;display:grid}.content-div,.m-dimg,.m-dimg img{position:relative}.megamenu{background:#c71e36}.megamenu.cities{width:1200px!important}.megamenu.cities.bookTrip{width:1000px!important}.cities .mwidth .tab-menu,.cities .mwidth .tab-menu a:hover{background:0 0}.bookTrip .menu-wrp{display:grid;grid-template-columns:32% 21% 47%}.menu-wrp{display:grid;grid-template-columns:25% 35% 40%}.book-div1{grid-template-columns:repeat(2,1fr);gap:15px 10px}.book-div{grid-template-columns:repeat(1,1fr);gap:15px 0}.menu-div{display:grid;grid-template-columns:repeat(2,1fr)}.content-div .active,.m-dimg .active{display:block}.content-div p{display:block;font-size:2em;font-weight:700;color:#fff}.mimg-d{display:flex;align-items:center;justify-content:flex-end;margin:0 30px}.m-dimg img{object-fit:cover;height:190px;width:300px;object-position:left;z-index:2}.m-dimg::after{border-image-width:2;content:'';position:absolute;background:url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/css/images/shape.webp") bottom/395px 80px no-repeat;bottom:-20px;left:-84px;width:132%;height:100%;z-index:1;pointer-events:none}.book-div div,.menu-div div{padding:5px 0}.content-div{display:grid;align-items:start;align-content:space-between;justify-content:space-between}.content-div button{padding:11px 40px!important;border-radius:25px;margin-left:0!important;border:1px solid #fff;color:#fff;font-size:19px;line-height:23px;transition:.3s;cursor:pointer}@media(max-width:1400px){.megamenu.cities{width:1100px!important;right:8%;padding:30px;border-radius:0 0 30px 30px}}.main-menu a.active span,.main-menu a:hover span{color:var(--red)}
 
 .book-div1{grid-template-columns: repeat(3, 1fr);gap: 15px 0px;}
   .megamenu.cities{width: 1230px !important;}
@@ -456,7 +456,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 			
 
 
-                    <div class="swiper-slide bslide4   odd " style="background:url("/mirror/assets/www.redtaxi.co.in/adminpanel/asset/images/banner/urbania-home-banner.webp");" fetchpriority="high"
+                    <div class="swiper-slide bslide4   odd " style="background:url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/adminpanel/asset/images/banner/urbania-home-banner.webp");" fetchpriority="high"
      decoding="async">
                         <div class="textWrapper ">
                             <h2 class="bh1 tblack">Because Traveling<br />
@@ -478,7 +478,7 @@ Always Be Easy</h2>
                 			
 
 
-                    <div class="swiper-slide bslide4   even " style="background:url("/mirror/assets/www.redtaxi.co.in/adminpanel/asset/images/banner/well-maintained-cabs.webp");" fetchpriority="high"
+                    <div class="swiper-slide bslide4   even " style="background:url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/adminpanel/asset/images/banner/well-maintained-cabs.webp");" fetchpriority="high"
      decoding="async">
                         <div class="textWrapper  two ">
                             <h1 class="bh1">24/7 Direct<br />
@@ -500,7 +500,7 @@ Well Maintained Cabs</h1>
                 			
 
 
-                    <div class="swiper-slide bslide4  " style="background:url("/mirror/assets/www.redtaxi.co.in/adminpanel/asset/images/banner/start-your-corporate-travel-here.webp");" fetchpriority="high"
+                    <div class="swiper-slide bslide4  " style="background:url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/adminpanel/asset/images/banner/start-your-corporate-travel-here.webp");" fetchpriority="high"
      decoding="async">
                         <div class="textWrapper ">
                             <h2 class="bh1">No Ride Cancellations,<br />
@@ -523,7 +523,7 @@ your destination</p>
                 			
 
 
-                    <div class="swiper-slide bslide4   even " style="background:url("/mirror/assets/www.redtaxi.co.in/adminpanel/asset/images/banner/banner2.webp");" fetchpriority="high"
+                    <div class="swiper-slide bslide4   even " style="background:url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/adminpanel/asset/images/banner/banner2.webp");" fetchpriority="high"
      decoding="async">
                         <div class="textWrapper  two ">
                             <h2 class="bh1">Convenient Travel<br />
@@ -546,7 +546,7 @@ with ease&mdash;all at your convenience</p>
                 			
 
 
-                    <div class="swiper-slide bslide4   odd " style="background:url("/mirror/assets/www.redtaxi.co.in/adminpanel/asset/images/banner/banner1.webp");" fetchpriority="high"
+                    <div class="swiper-slide bslide4   odd " style="background:url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/adminpanel/asset/images/banner/banner1.webp");" fetchpriority="high"
      decoding="async">
                         <div class="textWrapper ">
                             <h2 class="bh1">Where Every Ride<br />
@@ -1313,14 +1313,14 @@ With comfort and convenience</p>
 
 
 .mem-kanchipuram::after {
-    background-image: url("/mirror/assets/www.redtaxi.co.in/css/images/kanchipuram-image.webp");
+    background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/css/images/kanchipuram-image.webp");
 }
 
 .mem-siruvapuri::after {
-    background-image: url("/mirror/assets/www.redtaxi.co.in/css/images/siruvapuri-balasubramani-temple.webp");
+    background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/css/images/siruvapuri-balasubramani-temple.webp");
 }
 .mem-wonder::after {
-    background-image: url("/mirror/assets/www.redtaxi.co.in/css/images/wonderla.webp");
+    background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/css/images/wonderla.webp");
 }
 
 @media (min-width: 481px) {
@@ -1392,17 +1392,17 @@ font-weight: 500;font-size: 14px;height: 100%;}
 .dummy-col ,.google-img.v2{display:none;}
 
     .airport-cbe {
-        background-image: url("/mirror/assets/www.redtaxi.co.in/css/images/subbanner/taxi-services-in-coimbatore-480.webp") !important;
+        background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/css/images/subbanner/taxi-services-in-coimbatore-480.webp") !important;
     }
 	
 	.airport-chennai {
-        background-image: url("/mirror/assets/www.redtaxi.co.in/css/images/subbanner/red-taxi-chennai-480.webp") !important;
+        background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/css/images/subbanner/red-taxi-chennai-480.webp") !important;
     }
 	.trichy-airport {
-        background-image: url("/mirror/assets/www.redtaxi.co.in/css/images/subbanner/red-taxi-trichy-480.webp") !important;
+        background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/css/images/subbanner/red-taxi-trichy-480.webp") !important;
     }
 	.madurai-airport {
-        background-image: url("/mirror/assets/www.redtaxi.co.in/css/images/subbanner/red-taxi-madurai-480.webp") !important;
+        background-image: url("/test_redTaxi/mirror/assets/www.redtaxi.co.in/css/images/subbanner/red-taxi-madurai-480.webp") !important;
     }
 }
 

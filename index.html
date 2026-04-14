@@ -2,17 +2,18 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="./vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>temp-react</title>
   </head>
   <body>
     <div id="root"></div>
     <script>
-      if (window.location.pathname === "/") {
-        window.location.replace("/mirror/pages/index.html");
+      var BASE_PATH = "/test_redTaxi";
+      if (window.location.pathname === BASE_PATH || window.location.pathname === BASE_PATH + "/") {
+        window.location.replace(BASE_PATH + "/mirror/pages/index.html");
       }
     </script>
-    <script type="module" src="/src/main.jsx"></script>
+    <script type="module" src="./src/main.jsx"></script>
   </body>
 </html>

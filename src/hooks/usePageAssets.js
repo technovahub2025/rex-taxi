@@ -1,6 +1,22 @@
 import { useEffect } from "react";
 import { HIDDEN_ROUTES } from "../config/pageVisibility.js";
 
+const BASE_PATH = (import.meta.env.BASE_URL || "/").replace(/\/$/, "");
+
+const stripBasePath = (path) => {
+  if (!path || !BASE_PATH) return path;
+  if (path === BASE_PATH) return "/";
+  if (path.startsWith(`${BASE_PATH}/`)) return path.slice(BASE_PATH.length) || "/";
+  return path;
+};
+
+const withBasePath = (path) => {
+  if (!path || !path.startsWith("/") || !BASE_PATH) return path;
+  if (path === "/") return `${BASE_PATH}/`;
+  if (path === BASE_PATH || path.startsWith(`${BASE_PATH}/`)) return path;
+  return `${BASE_PATH}${path}`;
+};
+
 const ROUTE_ALIASES = {
   "/traveller": "/tempo-traveller-booking",
   "/urbania": "/urbania-van-booking",
@@ -16,14 +32,14 @@ const normalizePath = (path) => {
 };
 
 const resolveRouteAlias = (route) => {
-  const normalized = normalizePath(route);
+  const normalized = normalizePath(stripBasePath(route));
   if (!normalized || normalized.startsWith("/mirror/assets/")) return normalized;
   return ROUTE_ALIASES[normalized] || normalized;
 };
 
 const toRouteKey = (href) => {
   if (!href || !href.startsWith("/")) return href;
-  return href.split("#")[0].split("?")[0];
+  return stripBasePath(href.split("#")[0].split("?")[0]);
 };
 
 const BLOCKED_TEXTS = ["become a partner", "become a parter"];
@@ -44,13 +60,13 @@ const normalizeToRoute = (rawHref) => {
 
   if (href.startsWith("/mirror/pages/")) {
     const slug = href.replace("/mirror/pages/", "").replace(/\.html($|\?)/, "$1");
-    if (slug === "index") return "/";
-    return resolveRouteAlias(`/${slug}`);
+    if (slug === "index") return withBasePath("/");
+    return withBasePath(resolveRouteAlias(`/${slug}`));
   }
 
   if (href.startsWith("https://www.redtaxi.co.in/") || href.startsWith("http://www.redtaxi.co.in/")) {
     const url = new URL(href);
-    return resolveRouteAlias(`${url.pathname}${url.search}${url.hash}`);
+    return withBasePath(resolveRouteAlias(`${url.pathname}${url.search}${url.hash}`));
   }
 
   if (/^(https?:)?\/\//i.test(href)) {
@@ -59,43 +75,47 @@ const normalizeToRoute = (rawHref) => {
 
   if (href.endsWith(".html")) {
     const slug = href.replace(/^\.?\//, "").replace(/\.html$/, "");
-    return slug === "index" ? "/" : resolveRouteAlias(`/${slug}`);
+    return slug === "index" ? withBasePath("/") : withBasePath(resolveRouteAlias(`/${slug}`));
   }
 
   if (!href.startsWith("/")) {
-    return resolveRouteAlias(`/${href.replace(/^\.?\//, "")}`);
+    return withBasePath(resolveRouteAlias(`/${href.replace(/^\.?\//, "")}`));
   }
 
-  return resolveRouteAlias(href);
+  return withBasePath(resolveRouteAlias(href));
 };
+
+const mirrorHomePath = withBasePath("/mirror/pages/index.html");
 
 const normalizeInlineScript = (inlineCode) =>
   (inlineCode || "")
-    .replace(/\/mirror\/pages\/([a-zA-Z0-9/_-]+)\.html/g, "/$1")
+    .replace(/\/mirror\/pages\/([a-zA-Z0-9/_-]+)\.html/g, (_, slug) =>
+      withBasePath(slug === "index" ? "/" : `/${slug}`)
+    )
     .replace(
       /(window\.location(?:\.href)?\s*=\s*['"])(?!https?:\/\/|\/|#)([^'"]+)(['"])/g,
-      (_, p1, p2, p3) => `${p1}/${p2.replace(/^\/+/, "")}${p3}`
+      (_, p1, p2, p3) => `${p1}${withBasePath(`/${p2.replace(/^\/+/, "")}`)}${p3}`
     )
     .replace(
       /(window\.location\.assign\(\s*['"])(?!https?:\/\/|\/|#)([^'"]+)(['"]\s*\))/g,
-      (_, p1, p2, p3) => `${p1}/${p2.replace(/^\/+/, "")}${p3}`
+      (_, p1, p2, p3) => `${p1}${withBasePath(`/${p2.replace(/^\/+/, "")}`)}${p3}`
     )
-    .replace(/(['"])\/?traveller(?:\.html)?\1/g, "$1/tempo-traveller-booking$1")
-    .replace(/(['"])\/?urbania(?:\.html)?\1/g, "$1/urbania-van-booking$1")
-    .replace(/(['"])\/?blogs(?:\.html)?\1/g, "$1/blog$1")
-    .replace(/(['"])\/?book-a-trip(?:\.html)?\1/g, "$1/booking$1")
-    .replace(/(['"])\/?madurai-taxi(?:\.html)?\1/g, "$1/madurai-cab-booking$1")
+    .replace(/(['"])\/?traveller(?:\.html)?\1/g, `$1${withBasePath("/tempo-traveller-booking")}$1`)
+    .replace(/(['"])\/?urbania(?:\.html)?\1/g, `$1${withBasePath("/urbania-van-booking")}$1`)
+    .replace(/(['"])\/?blogs(?:\.html)?\1/g, `$1${withBasePath("/blog")}$1`)
+    .replace(/(['"])\/?book-a-trip(?:\.html)?\1/g, `$1${withBasePath("/booking")}$1`)
+    .replace(/(['"])\/?madurai-taxi(?:\.html)?\1/g, `$1${withBasePath("/madurai-cab-booking")}$1`)
     .replace(
       /window\.location(?:\.href)?\s*=\s*['"]\/thanks(?:\.php)?['"]/g,
-      "window.location.href = \"/mirror/pages/index.html\""
+      `window.location.href = "${mirrorHomePath}"`
     )
     .replace(
       /window\.location\.assign\(\s*['"]\/thanks(?:\.php)?['"]\s*\)/g,
-      "window.location.assign(\\\"/mirror/pages/index.html\\\")"
+      `window.location.assign("${mirrorHomePath}")`
     )
     .replace(
       /window\.location\.replace\(\s*['"]\/thanks(?:\.php)?['"]\s*\)/g,
-      "window.location.replace(\\\"/mirror/pages/index.html\\\")"
+      `window.location.replace("${mirrorHomePath}")`
     )
     .replace(
       /alert\(([^)]*Thank you for contacting us\.[\s\S]*?Our team will contact you soon[^)]*)\);?/g,
